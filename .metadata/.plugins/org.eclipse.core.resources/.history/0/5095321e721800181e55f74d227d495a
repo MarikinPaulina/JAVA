@@ -1,0 +1,26 @@
+package lab2;
+
+import javax.swing.JFrame;
+
+public class CloseableFrame extends JFrame
+{
+	public CloseableFrame() throws HeadlessException {}
+    public CloseableFrame(GraphicsConfiguration gc) 
+    {
+        super(gc);
+    }
+    public CloseableFrame(String title) throws HeadlessException 
+    {
+        super(title);
+    }
+    public CloseableFrame(String title, GraphicsConfiguration gc) 
+    {
+        super(title, gc);
+    }
+	
+	public static void main(String[] args) 
+	{
+
+	}
+
+}
