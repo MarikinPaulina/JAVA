@@ -1,0 +1,71 @@
+package lab2;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class ThreeButtonFrame extends JFrame 
+{
+	public ThreeButtonFrame() throws HeadlessException {
+		this.setSize(640,480);
+		this.setLayout(new GridLayout(1,7));
+		JButton exitButton = new JButton("Zakończ");
+		ActionListener exitListener = new ActionListener() {
+
+			public void actionPerformed(ActionEvent arg0) {
+				System.exit(0);		
+			}
+
+		};
+		exitButton.addActionListener(exitListener);
+		
+		JButton title = new JButton("Nowy tytuł");
+		ActionListener titleListener = new ActionListener() {
+
+			public void actionPerformed(ActionEvent arg0) {
+				ThreeButtonFrame.this.setTitle("Nowy tytuł");
+			}
+
+		};
+		title.addActionListener(titleListener);
+		
+		JButton etykieta = new JButton("Nowa etyketa");
+		ActionListener etykietaListener = new ActionListener() {
+
+			public void actionPerformed(ActionEvent arg0) {
+				JLabel e = new JLabel("Nowa etykieta");
+				ThreeButtonFrame.this.add(e);
+			}
+
+		};
+		etykieta.addActionListener(etykietaListener);
+		
+		this.add(exitButton);
+		this.add(title);
+		this.add(etykieta);
+		
+    }
+    public ThreeButtonFrame(GraphicsConfiguration gc) {
+        super(gc);
+        this.setSize(640,480);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+    }
+    public ThreeButtonFrame(String title) throws HeadlessException {
+        super(title);
+        this.setSize(640,480);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+    }
+    public ThreeButtonFrame(String title, GraphicsConfiguration gc) {
+        super(title, gc);
+        this.setSize(640,480);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+    }
+	
+	public static void main(String[] args) 
+	{
+		ThreeButtonFrame frame = new ThreeButtonFrame();
+		frame.setVisible(true);
+
+	}
+
+}

@@ -6,59 +6,73 @@ import java.util.Random;
 
 import javax.swing.*;
 
-public class ThreeButtonFrame extends JFrame{
-
-	public ThreeButtonFrame() //throws HeadlessException 
-	{
-		super();
-		this.setSize(640,480);
-		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-		ThreeShapesPanel panel = new ThreeShapesPanel();
-		JButton button1 = new JButton("Zakończ"); 
-		JButton button2 = new JButton("Reset tytułu");
-		JButton button3 = new JButton("Przycisk konca swiata"); 
-		ActionListener listener1 = new ActionListener() 
-		{
-			@Override
-			public void actionPerformed(ActionEvent arg0) 
-			{
-				System.exit(0);
-			}
-		};
-		ActionListener listener2 = new ActionListener() 
-		{
-			@Override
-			public void actionPerformed(ActionEvent arg0) 
-			{
-				
-			}
-		};
-		ActionListener listener3 = new ActionListener() 
-		{
-			@Override
-			public void actionPerformed(ActionEvent arg0) 
-			{
-				System.out.println("Koniec");
-				System.exit(2);
-			}
-		};
-		button1.addActionListener(listener1);
-		button2.addActionListener(listener2);
-		button3.addActionListener(listener3);
-		panel.add(button1);
-		panel.add(button2);
-		panel.add(button3);
-		this.setTitle(title);
-		this.add(panel);
-	}
+public class ThreeButtonFrame extends JFrame 
+{
+	Random r = new Random();
+	JPanel panel = new JPanel();
 	
-    public static void main(String[] args) 
+	public ThreeButtonFrame() throws HeadlessException {
+		this.setSize(640,480);
+		
+		panel.setLayout(new GridLayout(7,1));
+		this.add(panel);
+		JButton exitButton = new JButton("Zakończ");
+		ActionListener exitListener = new ActionListener() {
+
+			public void actionPerformed(ActionEvent arg0) {
+				System.exit(0);		
+			}
+
+		};
+		exitButton.addActionListener(exitListener);
+		
+		JButton title = new JButton("Nowy tytuł");
+		ActionListener titleListener = new ActionListener() {
+
+			public void actionPerformed(ActionEvent arg0) {
+				ThreeButtonFrame.this.setTitle("Nowy tytuł");
+			}
+
+		};
+		title.addActionListener(titleListener);
+		
+		JButton back = new JButton("Nowe tło");
+		ActionListener backListener = new ActionListener() {
+
+			public void actionPerformed(ActionEvent arg0) {
+				Color c1 = new Color(r.nextFloat(),r.nextFloat(),r.nextFloat());
+				panel.setBackground(c1);
+			}
+
+		};
+		back.addActionListener(backListener);
+		
+		panel.add(exitButton);
+		panel.add(title);
+		panel.add(back);
+		
+    }
+    public ThreeButtonFrame(GraphicsConfiguration gc) {
+        super(gc);
+        this.setSize(640,480);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+    }
+    public ThreeButtonFrame(String title) throws HeadlessException {
+        super(title);
+        this.setSize(640,480);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+    }
+    public ThreeButtonFrame(String title, GraphicsConfiguration gc) {
+        super(title, gc);
+        this.setSize(640,480);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+    }
+	
+	public static void main(String[] args) 
 	{
 		ThreeButtonFrame frame = new ThreeButtonFrame();
 		frame.setVisible(true);
-	    
 
 	}
-	Random rand = new Random();
-	Color cool1 = new Color(rand.nextFloat(), rand.nextFloat(), rand.nextFloat());
+
 }

@@ -1,0 +1,14 @@
+package lab3;
+
+import com.sun.xml.internal.bind.v2.runtime.reflect.opt.Const;
+
+public interface Figura {
+
+	double PI = 3.1415926535;
+	
+	double obliczPole();
+	double obliczObwod();
+	
+
+
+}

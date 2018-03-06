@@ -1,0 +1,52 @@
+package lab2;
+
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+
+public class ThreeButtonFrame extends JFrame 
+{
+	public ThreeButtonFrame() throws HeadlessException {
+		this.setSize(640,480);
+		this.setLayout(new GridLayout(5,5));
+		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+		JButton exitButton = new JButton("Zakończ");
+		ActionListener exitListener = new ActionListener() {
+
+			public void actionPerformed(ActionEvent arg0) {
+				System.exit(0);		
+			}
+
+		};
+		JButton title = new JButton("Nowy tytuł");
+		JButton etykieta = new JButton("Nowa etyketa");
+		
+		this.add(exitButton);
+		this.add(title);
+		this.add(etykieta);
+		
+    }
+    public ThreeButtonFrame(GraphicsConfiguration gc) {
+        super(gc);
+        this.setSize(640,480);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+    }
+    public ThreeButtonFrame(String title) throws HeadlessException {
+        super(title);
+        this.setSize(640,480);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+    }
+    public ThreeButtonFrame(String title, GraphicsConfiguration gc) {
+        super(title, gc);
+        this.setSize(640,480);
+        setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+    }
+	
+	public static void main(String[] args) 
+	{
+		ThreeButtonFrame frame = new ThreeButtonFrame();
+		frame.setVisible(true);
+
+	}
+
+}

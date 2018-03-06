@@ -1,0 +1,25 @@
+package lab3;
+
+public class Kolo implements Figura {
+
+	@Override
+	public double obliczPole() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double obliczObwod() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
