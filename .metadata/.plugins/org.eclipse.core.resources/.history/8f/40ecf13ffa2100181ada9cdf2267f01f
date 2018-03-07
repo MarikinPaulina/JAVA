@@ -1,0 +1,23 @@
+package lab3;
+
+public class Trojkat implements Figura {
+
+	public double obliczObwod() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public double obliczPole() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
