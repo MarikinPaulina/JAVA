@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=POJAVA/src&lt;lab3{Figura.java[Figura" modifiers="513" timestamp="1520421756000"/>
+<typeInfo handle="=POJAVA/\/opt\/java\/jdk1.8.0_162\/jre\/lib\/rt.jar&lt;java.awt.event(ItemListener.class[ItemListener" modifiers="1537" timestamp="1513747461000"/>
+<typeInfo handle="=POJAVA/\/opt\/java\/jdk1.8.0_162\/jre\/lib\/rt.jar&lt;javax.swing(JFrame.class[JFrame" modifiers="33" timestamp="1513747461000"/>
+<typeInfo handle="=DŻAFAR/\/opt\/java\/jdk1.8.0_162\/jre\/lib\/rt.jar&lt;javax.swing(JPanel.class[JPanel" modifiers="33" timestamp="1513747461000"/>
+</typeInfoHistroy>

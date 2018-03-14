@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="684" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -19,7 +19,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="214" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -28,10 +28,36 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" partName="mainClass.java" path="/home/paulina/workspace/POJAVA/src/lab4/mainClass.java" title="mainClass.java" tooltip="POJAVA/src/lab4/mainClass.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab4/mainClass.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1486" selectionTopPixel="404"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ComboBoxItemListener.java" partName="ComboBoxItemListener.java" path="/home/paulina/workspace/POJAVA/src/lab4/ComboBoxItemListener.java" title="ComboBoxItemListener.java" tooltip="POJAVA/src/lab4/ComboBoxItemListener.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab4/ComboBoxItemListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="283" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiListenerFrame.java" partName="MultiListenerFrame.java" path="/home/paulina/workspace/POJAVA/src/lab3/MultiListenerFrame.java" title="MultiListenerFrame.java" tooltip="POJAVA/src/lab3/MultiListenerFrame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab3/MultiListenerFrame.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="57" selectionOffset="1366" selectionTopPixel="353"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThreeShapesPanel.java" partName="ThreeShapesPanel.java" path="/home/paulina/workspace/POJAVA/src/lab2/ThreeShapesPanel.java" title="ThreeShapesPanel.java" tooltip="POJAVA/src/lab2/ThreeShapesPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab2/ThreeShapesPanel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="308" selectionOffset="357" selectionTopPixel="102"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="rysujacyPanel.java" partName="rysujacyPanel.java" path="/home/paulina/workspace/POJAVA/src/lab4/rysujacyPanel.java" title="rysujacyPanel.java" tooltip="POJAVA/src/lab4/rysujacyPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab4/rysujacyPanel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="823" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
@@ -66,6 +92,11 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (23 items)"/>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="465" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -97,7 +128,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -276,7 +307,165 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/POJAVA/src/lab4/mainClass.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/POJAVA/src/lab4/ComboBoxItemListener.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/POJAVA/src/lab2/ThreeShapesPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/POJAVA/src/lab4/rysujacyPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/POJAVA/src/lab3/MultiListenerFrame.java"/>
+</editors>
+<item historyLabel="mainClass.java" index="0">
+<position/>
+</item>
+<item historyLabel="rysujacyPanel.java" index="3">
+<position info="not_deleted" x="823" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1237" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="526" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="2995" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="526" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="3023" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="526" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="3023" y="0"/>
+</item>
+<item historyLabel="MultiListenerFrame.java" index="4">
+<position info="not_deleted" x="872" y="0"/>
+</item>
+<item historyLabel="ThreeShapesPanel.java" index="2">
+<position info="not_deleted" x="357" y="308"/>
+</item>
+<item historyLabel="MultiListenerFrame.java" index="4">
+<position info="not_deleted" x="1192" y="123"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="526" y="0"/>
+</item>
+<item historyLabel="MultiListenerFrame.java" index="4">
+<position info="not_deleted" x="1192" y="123"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="526" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1442" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="526" y="0"/>
+</item>
+<item historyLabel="MultiListenerFrame.java" index="4">
+<position info="not_deleted" x="1318" y="45"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1422" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1422" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1892" y="65"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="647" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="594" y="7"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1892" y="65"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="594" y="7"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="647" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="647" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="605" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="2505" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="605" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="895" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="2505" y="0"/>
+</item>
+<item historyLabel="MultiListenerFrame.java" index="4">
+<position info="not_deleted" x="1366" y="57"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1454" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="895" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1454" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="895" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1454" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1298" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="283" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1298" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="283" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1298" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="283" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1298" y="0"/>
+</item>
+<item historyLabel="ComboBoxItemListener.java" index="1">
+<position info="not_deleted" x="283" y="0"/>
+</item>
+<item active="true" historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="1298" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -296,38 +485,50 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="rysujacyPanel.java" tooltip="POJAVA/src/lab4/rysujacyPanel.java">
+<persistable path="/POJAVA/src/lab4/rysujacyPanel.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThreeShapesPanel.java" tooltip="POJAVA/src/lab2/ThreeShapesPanel.java">
 <persistable path="/POJAVA/src/lab2/ThreeShapesPanel.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Figura.java" tooltip="DŻAFAR/lab3/Figura.java">
-<persistable path="/DŻAFAR/lab3/Figura.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CloseableFrame.java" tooltip="DŻAFAR/lab2/CloseableFrame.java">
-<persistable path="/DŻAFAR/lab2/CloseableFrame.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThreeButtonFrame.java" tooltip="DŻAFAR/lab2/ThreeButtonFrame.java">
-<persistable path="/DŻAFAR/lab2/ThreeButtonFrame.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThreeButtonFrame.java" tooltip="POJAVA/src/lab2/ThreeButtonFrame.java">
 <persistable path="/POJAVA/src/lab2/ThreeButtonFrame.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThreeShapesPanel.java" tooltip="POJAVA/lab2/ThreeShapesPanel.java">
-<persistable path="/POJAVA/lab2/ThreeShapesPanel.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiListenerFrame.java" tooltip="POJAVA/src/lab3/MultiListenerFrame.java">
+<persistable path="/POJAVA/src/lab3/MultiListenerFrame.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CloseableFrame.java" tooltip="POJAVA/src/lab2/CloseableFrame.java">
-<persistable path="/POJAVA/src/lab2/CloseableFrame.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ComboBoxItemListener.java" tooltip="POJAVA/src/lab4/ComboBoxItemListener.java">
+<persistable path="/POJAVA/src/lab4/ComboBoxItemListener.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CloseableFrame.java" tooltip="PoJava/src/lab2/CloseableFrame.java">
-<persistable path="/PoJava/src/lab2/CloseableFrame.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ComboBoxItemListener.java" tooltip="POJAVA/src/lab3/ComboBoxItemListener.java">
+<persistable path="/POJAVA/src/lab3/ComboBoxItemListener.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThreeShapesPanel.java" tooltip="DŻAFAR/lab2/ThreeShapesPanel.java">
-<persistable path="/DŻAFAR/lab2/ThreeShapesPanel.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" tooltip="POJAVA/src/lab4/mainClass.java">
+<persistable path="/POJAVA/src/lab4/mainClass.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Example2.java" tooltip="DŻAFAR/lab2/Example2.java">
-<persistable path="/DŻAFAR/lab2/Example2.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainFrame.java" tooltip="POJAVA/src/lab3/mainFrame.java">
+<persistable path="/POJAVA/src/lab3/mainFrame.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="example.java" tooltip="DŻAFAR/lab2/example.java">
-<persistable path="/DŻAFAR/lab2/example.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiListenerFrame.java" tooltip="DŻAFAR/lab3/MultiListenerFrame.java">
+<persistable path="/DŻAFAR/lab3/MultiListenerFrame.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="drawPanel.java" tooltip="DŻAFAR/lab4/drawPanel.java">
+<persistable path="/DŻAFAR/lab4/drawPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="interfacePanel.java" tooltip="DŻAFAR/lab4/interfacePanel.java">
+<persistable path="/DŻAFAR/lab4/interfacePanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainFrame.java" tooltip="DŻAFAR/lab4/mainFrame.java">
+<persistable path="/DŻAFAR/lab4/mainFrame.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MedianFrame.java" tooltip="POJAVA/src/lab3/MedianFrame.java">
+<persistable path="/POJAVA/src/lab3/MedianFrame.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OuterClassListener.java" tooltip="POJAVA/src/lab3/OuterClassListener.java">
+<persistable path="/POJAVA/src/lab3/OuterClassListener.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ZadanieA.java" tooltip="DŻAFAR/lab3/ZadanieA.java">
+<persistable path="/DŻAFAR/lab3/ZadanieA.java"/>
 </file>
 </mruList>
 </workbench>

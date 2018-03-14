@@ -1,0 +1,57 @@
+package lab4;
+
+import java.awt.BorderLayout;
+import java.awt.GraphicsConfiguration;
+import java.awt.GridLayout;
+import java.awt.HeadlessException;
+import java.awt.Color;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class mainClass extends JFrame {
+
+	public mainClass() throws HeadlessException {
+		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+		this.setSize(640,480);
+		
+		this.add(menuPanel,BorderLayout.NORTH);
+		this.add(drawPanel,BorderLayout.CENTER);
+		int j = 0;
+//		for(JPanel i : panelki)
+		{
+//			i = new JPanel();
+//			drawPanel.add(i);
+//			i.setBackground(new Color(j,0,0));
+//			j +=17;
+//			
+//		}
+	}
+
+	public mainClass(GraphicsConfiguration gc) {
+		super(gc);
+		// TODO Auto-generated constructor stub
+	}
+
+	public mainClass(String title) throws HeadlessException {
+		super(title);
+		// TODO Auto-generated constructor stub
+	}
+
+	public mainClass(String title, GraphicsConfiguration gc) {
+		super(title, gc);
+		// TODO Auto-generated constructor stub
+	}
+
+	JPanel menuPanel = new JPanel();
+	JPanel drawPanel = new JPanel(new GridLayout(3,3));
+	JPanel[] panelki;
+
+	
+	public static void main(String[] args) {
+		mainClass frame = new mainClass();
+//		frame.setVisible(true);
+
+	}
+
+}
