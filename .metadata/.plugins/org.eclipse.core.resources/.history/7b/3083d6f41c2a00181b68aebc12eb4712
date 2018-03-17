@@ -2,7 +2,6 @@ package lab4;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
-import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.LayoutManager;
@@ -41,20 +40,12 @@ public class rysujacyPanel extends JPanel {
 		Color kolor = frame.kolor;
 		g2d.setColor(kolor);		
 		int n = Integer.parseInt(frame.wierzcholki.getText());
-		Dimension xy = getSize();
-        int xmax = xy.width;
-        int ymax = xy.height;
 		xPoints = new ArrayList<Integer>();
 		yPoints = new ArrayList<Integer>();
-		
 	 	for (int i =0; i<n; i++)
 	 	{
-	 		xPoints.add(r.nextInt(xmax));
-	 		yPoints.add(r.nextInt(ymax));
-//	 		 int j = r.nextInt(xmax);
-//	         int k = r.nextInt(ymax);
-//	         xPoints.add(j);
-//	         yPoints.add(k);
+	 		xPoints.add(r.nextInt());
+	 		yPoints.add(r.nextInt());
 	 	}
 	 	g2d.drawPolygon(convertIntegers(xPoints), convertIntegers(yPoints), n);
 	}

@@ -50,6 +50,8 @@ public class mainClass extends JFrame {
 
 			public void actionPerformed(ActionEvent arg0) {
 				drawPanel.repaint();
+				
+				
 			}
 
 		};
@@ -137,7 +139,7 @@ public class mainClass extends JFrame {
 			 	case "cienka":
 			 		grubosc = 1;
 			 		break;
-			 	case "średnia":
+			 	case "srednia":
 			 		grubosc = 5;
 			 		break;
 			 	case "gruba":

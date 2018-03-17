@@ -49,7 +49,7 @@ public class mainClass extends JFrame {
 		ActionListener rysujListener = new ActionListener() {
 
 			public void actionPerformed(ActionEvent arg0) {
-				drawPanel.repaint();
+//				drawPanel.repaint();
 			}
 
 		};

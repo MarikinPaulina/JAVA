@@ -44,17 +44,17 @@ public class rysujacyPanel extends JPanel {
 		Dimension xy = getSize();
         int xmax = xy.width;
         int ymax = xy.height;
-		xPoints = new ArrayList<Integer>();
-		yPoints = new ArrayList<Integer>();
+		xPoints = new ArrayList<Integer>(xmax);
+		yPoints = new ArrayList<Integer>(ymax);
 		
 	 	for (int i =0; i<n; i++)
 	 	{
-	 		xPoints.add(r.nextInt(xmax));
-	 		yPoints.add(r.nextInt(ymax));
-//	 		 int j = r.nextInt(xmax);
-//	         int k = r.nextInt(ymax);
-//	         xPoints.add(j);
-//	         yPoints.add(k);
+//	 		xPoints.add(r.nextInt());
+//	 		yPoints.add(r.nextInt());
+	 		 int j = r.nextInt(xmax);
+	         int k = r.nextInt(ymax);
+	         xPoints.add(j);
+	         yPoints.add(k);
 	 	}
 	 	g2d.drawPolygon(convertIntegers(xPoints), convertIntegers(yPoints), n);
 	}

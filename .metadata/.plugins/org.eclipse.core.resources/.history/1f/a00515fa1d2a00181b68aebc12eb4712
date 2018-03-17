@@ -50,6 +50,8 @@ public class mainClass extends JFrame {
 
 			public void actionPerformed(ActionEvent arg0) {
 				drawPanel.repaint();
+				
+				
 			}
 
 		};
@@ -62,9 +64,6 @@ public class mainClass extends JFrame {
 		menuPanel.add(cienkaRButton);
 		menuPanel.add(sredniaRButton);
 		menuPanel.add(grubaRButton);
-		sredniaRButton.addActionListener(new radioListener());
-		cienkaRButton.addActionListener(new radioListener());
-		grubaRButton.addActionListener(new radioListener());
 //		wybór panelu
 //		menuPanel.add(labelPanelowy);
 //		menuPanel.add(panelowy);
@@ -137,7 +136,7 @@ public class mainClass extends JFrame {
 			 	case "cienka":
 			 		grubosc = 1;
 			 		break;
-			 	case "średnia":
+			 	case "srednia":
 			 		grubosc = 5;
 			 		break;
 			 	case "gruba":
@@ -148,7 +147,6 @@ public class mainClass extends JFrame {
 					 
 		  }
 	}
-	
 //	zmiana koloru linii
 	JButton colorButton = new JButton("Zmień kolor linii");
 //	wybór panelu

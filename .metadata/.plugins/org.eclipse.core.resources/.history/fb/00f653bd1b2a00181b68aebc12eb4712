@@ -34,8 +34,8 @@ public class mainClass extends JFrame {
 		this.add(menuPanel,BorderLayout.NORTH);
 		this.add(drawPanel,BorderLayout.CENTER);
 		drawPanel.setBackground(Color.black);
+		int j = 0;
 //		ładne okienka
-//		int j = 0;
 //		for(int i =0; i<9; i++)
 //		{
 //			panelki[i] = new rysujacyPanel(this);
@@ -50,6 +50,8 @@ public class mainClass extends JFrame {
 
 			public void actionPerformed(ActionEvent arg0) {
 				drawPanel.repaint();
+				
+				
 			}
 
 		};
@@ -62,9 +64,6 @@ public class mainClass extends JFrame {
 		menuPanel.add(cienkaRButton);
 		menuPanel.add(sredniaRButton);
 		menuPanel.add(grubaRButton);
-		sredniaRButton.addActionListener(new radioListener());
-		cienkaRButton.addActionListener(new radioListener());
-		grubaRButton.addActionListener(new radioListener());
 //		wybór panelu
 //		menuPanel.add(labelPanelowy);
 //		menuPanel.add(panelowy);
@@ -137,7 +136,7 @@ public class mainClass extends JFrame {
 			 	case "cienka":
 			 		grubosc = 1;
 			 		break;
-			 	case "średnia":
+			 	case "srednia":
 			 		grubosc = 5;
 			 		break;
 			 	case "gruba":
@@ -148,7 +147,6 @@ public class mainClass extends JFrame {
 					 
 		  }
 	}
-	
 //	zmiana koloru linii
 	JButton colorButton = new JButton("Zmień kolor linii");
 //	wybór panelu
@@ -163,7 +161,7 @@ public class mainClass extends JFrame {
 	Random r = new Random();
 
 	String color = "czarny";
-	Color kolor = new Color(150,150,0);
+	Color kolor = new Color(50,50,0);
 	JLabel labelwierzcholkowy = new JLabel("liczba wierzchołków");
 	JTextField wierzcholki = new JTextField("3");
 

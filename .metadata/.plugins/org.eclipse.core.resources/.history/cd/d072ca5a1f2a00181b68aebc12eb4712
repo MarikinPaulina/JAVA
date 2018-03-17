@@ -50,6 +50,8 @@ public class mainClass extends JFrame {
 
 			public void actionPerformed(ActionEvent arg0) {
 				drawPanel.repaint();
+				
+				
 			}
 
 		};
