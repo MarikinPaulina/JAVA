@@ -1,0 +1,59 @@
+package lab4;
+
+import java.awt.Graphics;
+import java.awt.LayoutManager;
+import java.util.ArrayList;
+import java.util.Random;
+
+import javax.swing.JPanel;
+
+public class rysujacyPanel extends JPanel {
+
+	public rysujacyPanel() {
+		this.frame = frame;
+	}
+
+	public rysujacyPanel(LayoutManager layout) {
+		super(layout);
+		// TODO Auto-generated constructor stub
+	}
+
+	public rysujacyPanel(boolean isDoubleBuffered) {
+		super(isDoubleBuffered);
+		// TODO Auto-generated constructor stub
+	}
+
+	public rysujacyPanel(LayoutManager layout, boolean isDoubleBuffered) {
+		super(layout, isDoubleBuffered);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void paintComponent(Graphics g)
+	{
+		super.paintComponent(g);
+		Color kolor = frame.kolor;
+		g.setColor(kolor);		
+//		int n = Integer.parseInt(frame.wierzcholki.getText());
+//	 	for (int i =0; i<n; i++)
+//	 	{
+//	 		xPoints.add(r.nextInt());
+//	 		yPoints.add(r.nextInt());
+//	 	}
+//	 	g.drawPolygon(convertIntegers(xPoints), convertIntegers(yPoints), n);
+	}
+	
+	public static int[] convertIntegers(ArrayList<Integer> integers)
+	{
+	    int[] ret = new int[integers.size()];
+	    for (int i=0; i < ret.length; i++)
+	    {
+	        ret[i] = integers.get(i).intValue();
+	    }
+	    return ret;
+	}
+	
+	Random r = new Random();
+	mainClass frame;
+	ArrayList<Integer> xPoints = new ArrayList<Integer>();
+	ArrayList<Integer> yPoints = new ArrayList<Integer>();
+}

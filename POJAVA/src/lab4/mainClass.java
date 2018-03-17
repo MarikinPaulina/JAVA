@@ -15,6 +15,9 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
@@ -26,62 +29,78 @@ public class mainClass extends JFrame {
 	public mainClass() throws HeadlessException {
 //		Ustawianie paneli i layoutu
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-		this.setSize(800,600);
+		this.setSize(880,660);
 		
 		this.add(menuPanel,BorderLayout.NORTH);
 		this.add(drawPanel,BorderLayout.CENTER);
+		drawPanel.setBackground(Color.black);
 		int j = 0;
 //		ładne okienka
-		for(int i =0; i<9; i++)
-		{
-			panelki[i] = new JPanel();
-			drawPanel.add(panelki[i]);
-			panelki[i].setBackground(new Color(j,0,0));
-			j +=17;
-		}
+//		for(int i =0; i<9; i++)
+//		{
+//			panelki[i] = new rysujacyPanel(this);
+//			drawPanel.add(panelki[i]);
+//			panelki[i].setBackground(new Color(j,0,0));
+//			j +=17;
+//		}
 		
-
+//		przycisk rysowania
 		menuPanel.add(rysujButton);	
 		ActionListener rysujListener = new ActionListener() {
 
 			public void actionPerformed(ActionEvent arg0) {
-				int i = Integer.parseInt(panel);
-				JPanel panelek = panelki[i];
+				drawPanel.repaint();
+				
 				
 			}
 
 		};
 		rysujButton.addActionListener(rysujListener);
+		
+//		grubość linii
+		grupa.add(sredniaRButton);
+		grupa.add(grubaRButton);
+		grupa.add(cienkaRButton);
+		menuPanel.add(cienkaRButton);
+		menuPanel.add(sredniaRButton);
+		menuPanel.add(grubaRButton);
+//		wybór panelu
+//		menuPanel.add(labelPanelowy);
+//		menuPanel.add(panelowy);
 //		zmiana koloru linii
-		grupa.add(koloRButton);
+		menuPanel.add(colorButton);
 		ActionListener colorListener = new ActionListener() {
 
 			public void actionPerformed(ActionEvent arg0) {
-				Color c1 = new Color(r.nextFloat(),r.nextFloat(),r.nextFloat());
-				panelki[8].setBackground(c1);
+				kolor = new Color(r.nextFloat(),r.nextFloat(),r.nextFloat());
+//				panelki[8].setBackground(kolor);
 			}
 
 		};
 		colorButton.addActionListener(colorListener);
-		
-		
-		grupa.add(sredniaRButton);
-		grupa.add(grubaRButton);
-		grupa.add(cienkaRButton)
-		menuPanel.add(cienkaRButton);
-		menuPanel.add(sredniaRButton);
-		menuPanel.add(grubaRButton);
-		menuPanel.add(labelPanelowy);
-		menuPanel.add(panelowy);
-		menuPanel.add(colorButton);
-		
+//		liczba wierzchołków
+		menuPanel.add(labelwierzcholkowy);
+		menuPanel.add(wierzcholki);
+
+//		kolor tłą
 		String[] colors = {"czarny", "niebieski", "czerwony", "cyjan", "ciemnoszary", "szary", "zielony", "magenta", "pomarańczowy"};
 		JComboBox<String> backColor = new JComboBox<String>(colors);
 		menuPanel.add(backColor);
 		backColor.addItemListener(new lab4.ComboBoxItemListener(this));
-		
-
-		
+//		menu
+		JMenuBar menuBar = new JMenuBar();
+		this.setJMenuBar(menuBar);
+		JMenu menu = new JMenu("Menu");
+		menuBar.add(menu);
+//		zamknij w menu
+		JMenuItem menuExit = new JMenuItem("Zamknij");
+		menu.add(menuExit);
+		menuExit.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent arg0) {
+			System.exit(0);
+			}});
+		menu.add(menuExit);
+//		
 		
 	}
 
@@ -101,20 +120,52 @@ public class mainClass extends JFrame {
 	}
 
 	JPanel menuPanel = new JPanel();
-	JPanel drawPanel = new JPanel(new GridLayout(3,3));
-	final JPanel[] panelki = new JPanel[9];
-	JButton rysujButton = new JButton("Rysuj!");
+	rysujacyPanel drawPanel = new rysujacyPanel(new GridLayout(3,3),this);
+//	final rysujacyPanel[] panelki = new rysujacyPanel[9];
+//	grubość linii
 	JRadioButton cienkaRButton = new JRadioButton("cienka", true);
 	JRadioButton sredniaRButton = new JRadioButton("średnia", false);
 	JRadioButton grubaRButton = new JRadioButton("gruba", false);
+	ButtonGroup grupa = new ButtonGroup();
+	int grubosc = 1;
+	public class radioListener implements ActionListener
+	{
+		public void actionPerformed(ActionEvent e) {
+			 String g=  ((JRadioButton) e.getSource()).getText();
+			 switch(g){
+			 	case "cienka":
+			 		grubosc = 1;
+			 		break;
+			 	case "srednia":
+			 		grubosc = 5;
+			 		break;
+			 	case "gruba":
+			 		grubosc = 10;
+			 		break;
+			 }
+				 
+					 
+		  }
+	}
+//	zmiana koloru linii
+	JButton colorButton = new JButton("Zmień kolor linii");
+//	wybór panelu
 	JLabel labelPanelowy = new JLabel("panel");
 	JTextField panelowy = new JTextField(4);
-	JButton colorButton = new JButton("Zmień kolor linii");
-	String figura = "kolo";
-	ButtonGroup grupa = new ButtonGroup();
-	Random r = new Random();
-	String color = "czarny";
+	
+	JButton rysujButton = new JButton("Rysuj!");
 
+
+
+
+	Random r = new Random();
+
+	String color = "czarny";
+	Color kolor = new Color(50,50,0);
+	JLabel labelwierzcholkowy = new JLabel("liczba wierzchołków");
+	JTextField wierzcholki = new JTextField("3");
+
+	
 	
 	public static void main(String[] args) {
 		mainClass frame = new mainClass();

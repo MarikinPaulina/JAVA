@@ -1,0 +1,9 @@
+package lab4;
+
+public class RysowanieMysz {
+
+	public RysowanieMysz() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

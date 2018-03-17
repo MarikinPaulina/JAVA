@@ -32,6 +32,5 @@ public class ComboBoxItemListener implements ItemListener {
 		}
 	}
 
-	JButton rysujButton = new JButton("Rysuj!");
 
 }
