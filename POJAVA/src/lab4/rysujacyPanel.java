@@ -39,7 +39,7 @@ public class rysujacyPanel extends JPanel {
 		BasicStroke bs1 = new BasicStroke(frame.grubosc);
 		g2d.setStroke(bs1);
 		Color kolor = frame.kolor;
-		g2d.setColor(kolor);		
+		g2d.setColor(kolor);
 		int n = Integer.parseInt(frame.wierzcholki.getText());
 		Dimension xy = getSize();
         int xmax = xy.width;
@@ -51,15 +51,10 @@ public class rysujacyPanel extends JPanel {
 	 	{
 	 		xPoints.add(r.nextInt(xmax));
 	 		yPoints.add(r.nextInt(ymax));
-//	 		 int j = r.nextInt(xmax);
-//	         int k = r.nextInt(ymax);
-//	         xPoints.add(j);
-//	         yPoints.add(k);
 	 	}
+		
 	 	g2d.drawPolygon(convertIntegers(xPoints), convertIntegers(yPoints), n);
 	}
-	
-
 	
 	public static int[] convertIntegers(ArrayList<Integer> integers)
 	{
