@@ -1,0 +1,33 @@
+package Interface;
+
+import java.awt.LayoutManager;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+public class MenuPanel extends JPanel {
+
+	public MenuPanel() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public MenuPanel(LayoutManager layout) {
+		super(layout);
+		// TODO Auto-generated constructor stub
+	}
+
+	public MenuPanel(boolean isDoubleBuffered) {
+		super(isDoubleBuffered);
+		// TODO Auto-generated constructor stub
+	}
+
+	public MenuPanel(LayoutManager layout, boolean isDoubleBuffered) {
+		super(layout, isDoubleBuffered);
+		// TODO Auto-generated constructor stub
+	}
+
+	JButton loadB  = new JButton("Wczytaj");
+	JButton startB  = new JButton("Nowa gra");
+	JButton optionsB  = new JButton("Opcje");
+	JButton exitB  = new JButton("Wyjście");
+}

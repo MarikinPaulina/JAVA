@@ -1,9 +1,13 @@
 package Interface;
 
+import java.awt.Color;
 import java.awt.GraphicsConfiguration;
 import java.awt.HeadlessException;
 
-import javax.swing.JFrame;
+import javax.swing.*;
+
+import java.awt.*;
+import java.awt.event.*;
 
 public class MainFrame extends JFrame {
 
@@ -20,8 +24,16 @@ public class MainFrame extends JFrame {
 		super(title);
 //		Ustawianie paneli i layoutu
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
-		this.setSize(880,660);
+		this.setSize(menuP.dimension);
+//		this.setLayout(layout);
 		final MainFrame frame = this;
+		frame.add(mainP);
+		mainP.add(menuP,"menu");
+		mainP.add(optionsP,"options");
+		mainP.add(initP,"init");
+		mainP.add(gameP,"game");
+		
+		
 	}
 
 	public MainFrame(String title, GraphicsConfiguration gc) {
@@ -29,6 +41,13 @@ public class MainFrame extends JFrame {
 		// TODO Auto-generated constructor stub
 	}
 
+
+	MenuPanel menuP = new MenuPanel(null,this);
+	OptionsPanel optionsP = new OptionsPanel(null);
+	InitPanel initP = new InitPanel(null);
+	GamePanel gameP = new GamePanel(null);
+	CardLayout layout = new CardLayout();
+	JPanel mainP = new JPanel(layout);
 	
 	public static void main(String[] args) {
 		MainFrame frame = new MainFrame("VSProject");

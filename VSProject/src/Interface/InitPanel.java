@@ -1,5 +1,6 @@
 package Interface;
 
+import java.awt.Color;
 import java.awt.LayoutManager;
 
 import javax.swing.JPanel;
@@ -12,7 +13,7 @@ public class InitPanel extends JPanel {
 
 	public InitPanel(LayoutManager layout) {
 		super(layout);
-		// TODO Auto-generated constructor stub
+		this.setBackground(Color.gray);
 	}
 
 	public InitPanel(boolean isDoubleBuffered) {
