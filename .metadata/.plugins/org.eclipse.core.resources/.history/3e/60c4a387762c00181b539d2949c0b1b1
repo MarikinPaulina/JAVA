@@ -32,8 +32,7 @@ public class MainFrame extends JFrame {
 		mainP.add(optionsP,"options");
 		mainP.add(initP,"init");
 		mainP.add(gameP,"game");
-		layout.show(mainP, "game");
-		
+		layout.show(menuP, "game");
 		
 	}
 
@@ -46,7 +45,7 @@ public class MainFrame extends JFrame {
 	MenuPanel menuP = new MenuPanel(null,this);
 	OptionsPanel optionsP = new OptionsPanel(null);
 	InitPanel initP = new InitPanel(null);
-	GamePanel gameP = new GamePanel(null,this);
+	GamePanel gameP = new GamePanel(null);
 	CardLayout layout = new CardLayout();
 	JPanel mainP = new JPanel(layout);
 	

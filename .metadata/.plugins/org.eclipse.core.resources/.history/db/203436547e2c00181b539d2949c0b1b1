@@ -30,7 +30,7 @@ public class GamePanel extends JPanel {
 		}
 		dimension =	new Dimension(back.getWidth(), back.getHeight());
 		setPreferredSize(dimension);
-		frame.setGlassPane(glass);
+		this.setGlassPanel(glass);
 	}
 
 	public GamePanel(boolean isDoubleBuffered) {
@@ -50,6 +50,6 @@ public class GamePanel extends JPanel {
 
 	BufferedImage back;
 	Dimension dimension;
-	MyGlassPanel glass = new MyGlassPanel(this);
+	MyGlassPanel glass = new MyGlassPanel();
 	MainFrame frame;
 }

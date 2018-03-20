@@ -34,7 +34,6 @@ public class MainFrame extends JFrame {
 		mainP.add(gameP,"game");
 		layout.show(mainP, "game");
 		
-		
 	}
 
 	public MainFrame(String title, GraphicsConfiguration gc) {

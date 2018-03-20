@@ -17,9 +17,8 @@ public class GamePanel extends JPanel {
 		// TODO Auto-generated constructor stub
 	}
 
-	public GamePanel(LayoutManager layout,MainFrame frame) {
+	public GamePanel(LayoutManager layout) {
 		super(layout);
-		this.frame = frame;
 		final GamePanel panel = this;
 		URL resource = getClass().getResource("/pictures/background.jpg");
 		try {
@@ -30,7 +29,6 @@ public class GamePanel extends JPanel {
 		}
 		dimension =	new Dimension(back.getWidth(), back.getHeight());
 		setPreferredSize(dimension);
-		frame.setGlassPane(glass);
 	}
 
 	public GamePanel(boolean isDoubleBuffered) {
@@ -50,6 +48,4 @@ public class GamePanel extends JPanel {
 
 	BufferedImage back;
 	Dimension dimension;
-	MyGlassPanel glass = new MyGlassPanel(this);
-	MainFrame frame;
 }
