@@ -23,7 +23,6 @@ public class GamePanel extends JPanel {
 	public GamePanel(LayoutManager layout,final MainFrame frame) {
 		super(layout);
 		this.frame = frame;
-		final GamePanel panel = this;
 		URL resource = getClass().getResource("/pictures/background.jpg");
 		try {
 		back = ImageIO.read(resource);
@@ -91,5 +90,5 @@ public class GamePanel extends JPanel {
 	MainFrame frame;
 	int xLoc = 575;
 	int yLoc = 300;
-//	Dimension loc = new Dimension(575,300);
+	boolean isVisible = false;
 }

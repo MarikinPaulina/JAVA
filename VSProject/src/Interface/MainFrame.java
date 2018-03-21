@@ -48,7 +48,8 @@ public class MainFrame extends JFrame {
 		mainP.add(optionsP,"options");
 		mainP.add(initP,"init");
 		mainP.add(gameP,"game");
-		layout.show(mainP, "game");
+//		layout.show(mainP, "game");
+//		gameP.isVisible = true;
 		frame.setGlassPane(glass);
 		
 		
@@ -61,8 +62,8 @@ public class MainFrame extends JFrame {
 
 
 	MenuPanel menuP = new MenuPanel(null,this);
-	OptionsPanel optionsP = new OptionsPanel(null);
-	InitPanel initP = new InitPanel(null);
+	OptionsPanel optionsP = new OptionsPanel(this);
+	InitPanel initP = new InitPanel(this);
 	GamePanel gameP = new GamePanel(null,this);
 	CardLayout layout = new CardLayout();
 	JPanel mainP = new JPanel(layout);

@@ -41,16 +41,20 @@ public class MyGlassPanel extends JComponent  {
 				String key = e.getKeyText(e.getKeyCode());
 				if(key == "Escape")
 				{
-					if(isVisible == false)
+					if(frame.gameP.isVisible == true)
 					{
-						isVisible = true;
-						setVisible(true);
+						if(isVisible == false)
+						{
+							isVisible = true;
+							setVisible(true);
+						}
+						else
+						{
+							isVisible = false;
+							setVisible(false);
+						}
 					}
-					else
-					{
-						isVisible = false;
-						setVisible(false);
-					}
+					
 				}
 				
 			}

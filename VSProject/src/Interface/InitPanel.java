@@ -2,13 +2,25 @@ package Interface;
 
 import java.awt.Color;
 import java.awt.LayoutManager;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
+import javax.swing.JButton;
 import javax.swing.JPanel;
 
 public class InitPanel extends JPanel {
 
-	public InitPanel() {
-		// TODO Auto-generated constructor stub
+	public InitPanel(final MainFrame frame) {
+		this.setBackground(Color.gray);
+		this.add(startB);
+		ActionListener startListener = new ActionListener() {
+
+			public void actionPerformed(ActionEvent arg0) {
+				frame.layout.show(frame.mainP, "game");
+			}
+
+		};
+		startB.addActionListener(startListener);
 	}
 
 	public InitPanel(LayoutManager layout) {
@@ -25,5 +37,7 @@ public class InitPanel extends JPanel {
 		super(layout, isDoubleBuffered);
 		// TODO Auto-generated constructor stub
 	}
+	JButton startB = new JButton("Start");
+	MainFrame frame;
 
 }
