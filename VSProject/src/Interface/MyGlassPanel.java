@@ -1,5 +1,5 @@
 package Interface;
-
+//Wykonanie: Paulina Marikin
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.GradientPaint;
@@ -53,7 +53,6 @@ public class MyGlassPanel extends JComponent  {
 					}
 				}
 				
-				System.out.println(key);
 			}
 
 		};
