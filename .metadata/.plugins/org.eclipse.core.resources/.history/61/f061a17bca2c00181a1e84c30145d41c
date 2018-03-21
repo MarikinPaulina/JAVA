@@ -1,0 +1,71 @@
+package Interface;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
+import javax.swing.JButton;
+import javax.swing.JComponent;
+
+public class MyGlassPanel extends JComponent  {
+//	implements KeyListener
+	public MyGlassPanel(MainFrame frame) {
+		MyGlassPanel glass = this;
+//		this.setBackground(new Color(50,50,50,50));
+		glass.setBackground(Color.black);
+		KeyListener glassListener = new KeyListener() {
+
+			public void keyTyped(KeyEvent e) {}
+			public void keyPressed(KeyEvent e) {}
+			public void keyReleased(KeyEvent e) {
+				int key = e.getKeyCode();
+				if (key == 27)
+				{
+					setVisible(true);
+					System.out.println(key);
+					System.exit(0);
+				}
+//				setVisible(key == 27);
+//				System.out.println(key);
+			}
+
+		};
+		MainFrame MFrame = this.frame;
+		frame.addKeyListener(glassListener);
+	}
+
+//	public void keyTyped(KeyEvent e) {
+//		// TODO Auto-generated method stub
+
+//	}
+//
+//	public void keyPressed(KeyEvent e) {
+//		// TODO Auto-generated method stub
+//
+//	}
+//
+//	public void keyReleased(KeyEvent e) {
+//		int key = e.getKeyCode();
+//		setVisible(KeyEvent.getKeyText(key) == "VK_ESCAPE");
+//		System.out.println(KeyEvent.getKeyText(key));
+//
+
+	public void paintComponent(Graphics g)
+	{
+		super.paintComponent(g);
+		Graphics2D g2d = (Graphics2D) g;
+		g2d.drawOval(50, 70, 50, 50);
+	}
+	
+	JButton loadB = new JButton("Kontynuj");
+	JButton resetB = new JButton("Reset");
+	JButton newB = new JButton("Nowa gra");
+	JButton optionsB = new JButton("Opcje");
+	JButton exitB = new JButton("Wyjście");
+	MainFrame frame;
+
+}
