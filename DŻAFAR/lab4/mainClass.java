@@ -23,7 +23,6 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 
-
 public class mainClass extends JFrame {
 
 	public mainClass() throws HeadlessException {

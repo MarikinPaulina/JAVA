@@ -33,21 +33,26 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" partName="mainClass.java" path="/home/paulina/workspace/POJAVA/src/lab4/mainClass.java" title="mainClass.java" tooltip="POJAVA/src/lab4/mainClass.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab4/mainClass.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="199" selectionOffset="1064" selectionTopPixel="82"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" partName="MainClass.java" path="/home/paulina/workspace/DŻAFAR/lab6/MainClass.java" title="MainClass.java" tooltip="DŻAFAR/lab6/MainClass.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab6/MainClass.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2178" selectionTopPixel="859"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="rysujacyPanel.java" partName="rysujacyPanel.java" path="/home/paulina/workspace/POJAVA/src/lab4/rysujacyPanel.java" title="rysujacyPanel.java" tooltip="POJAVA/src/lab4/rysujacyPanel.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab4/rysujacyPanel.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawingPanel.java" partName="DrawingPanel.java" path="/home/paulina/workspace/DŻAFAR/lab6/DrawingPanel.java" title="DrawingPanel.java" tooltip="DŻAFAR/lab6/DrawingPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab6/DrawingPanel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="184" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ComboBoxItemListener.java" partName="ComboBoxItemListener.java" path="/home/paulina/workspace/POJAVA/src/lab4/ComboBoxItemListener.java" title="ComboBoxItemListener.java" tooltip="POJAVA/src/lab4/ComboBoxItemListener.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab4/ComboBoxItemListener.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pencil.java" partName="Pencil.java" path="/home/paulina/workspace/DŻAFAR/lab6/Pencil.java" title="Pencil.java" tooltip="DŻAFAR/lab6/Pencil.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab6/Pencil.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="507" selectionTopPixel="129"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" partName="mainClass.java" path="/home/paulina/workspace/DŻAFAR/lab4/mainClass.java" title="mainClass.java" tooltip="DŻAFAR/lab4/mainClass.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab4/mainClass.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4530" selectionTopPixel="551"/>
 </editor>
 </editors>
 <views>
@@ -85,7 +90,7 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (48 items)"/>
+<category IMemento.internal.id="Warnings (41 items)"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="465" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
@@ -300,165 +305,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VSProject/src/Interface/MyGlassPanel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VSProject/src/Interface/GamePanel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VSProject/src/Interface/MainFrame.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VSProject/src/Interface/OptionsPanel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VSProject/src/Interface/InitPanel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VSProject/src/Interface/MenuPanel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/POJAVA/src/lab4/mainClass.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/POJAVA/src/lab4/rysujacyPanel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/POJAVA/src/lab4/ComboBoxItemListener.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab4/mainClass.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/MainClass.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/DrawingPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/Pencil.java"/>
 </editors>
-<item historyLabel="GamePanel.java" index="1">
-<position info="not_deleted" x="408" y="9"/>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="151" y="9"/>
 </item>
-<item historyLabel="MainFrame.java" index="2">
-<position info="not_deleted" x="1363" y="0"/>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="181" y="5"/>
 </item>
-<item historyLabel="GamePanel.java" index="1">
-<position info="not_deleted" x="667" y="0"/>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="561" y="4"/>
 </item>
-<item historyLabel="MyGlassPanel.java" index="0">
-<position info="not_deleted" x="1533" y="0"/>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="527" y="4"/>
 </item>
-<item historyLabel="MainFrame.java" index="2">
-<position info="not_deleted" x="1363" y="0"/>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="514" y="0"/>
 </item>
-<item historyLabel="OptionsPanel.java" index="3">
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="328" y="10"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="2">
+<position info="not_deleted" x="549" y="0"/>
+</item>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="328" y="10"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="451" y="0"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="2">
 <position/>
 </item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="644" y="0"/>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="451" y="0"/>
 </item>
-<item historyLabel="OptionsPanel.java" index="3">
+<item historyLabel="DrawingPanel.java" index="2">
+<position info="not_deleted" x="184" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="451" y="0"/>
+</item>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="451" y="0"/>
+</item>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="451" y="0"/>
+</item>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="451" y="0"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="2">
+<position info="not_deleted" x="184" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="451" y="0"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="2">
+<position info="not_deleted" x="184" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="422" y="0"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="2">
+<position info="not_deleted" x="184" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="1329" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="1329" y="0"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="2">
+<position info="not_deleted" x="184" y="0"/>
+</item>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="4169" y="359"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="1329" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="2663" y="0"/>
+</item>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="4169" y="359"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="2663" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="1780" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="2045" y="0"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="2">
+<position info="not_deleted" x="184" y="0"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="4530" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="1106" y="1"/>
+</item>
+<item historyLabel="mainClass.java" index="0">
+<position info="not_deleted" x="4530" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="1106" y="1"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="1329" y="0"/>
+</item>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="2">
+<position info="not_deleted" x="172" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="2178" y="0"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="2">
 <position/>
 </item>
-<item historyLabel="OptionsPanel.java" index="3">
-<position info="not_deleted" x="953" y="0"/>
+<item historyLabel="Pencil.java" index="3">
+<position info="not_deleted" x="507" y="0"/>
 </item>
-<item historyLabel="MainFrame.java" index="2">
-<position info="not_deleted" x="1592" y="0"/>
-</item>
-<item historyLabel="OptionsPanel.java" index="3">
-<position info="not_deleted" x="953" y="0"/>
-</item>
-<item historyLabel="OptionsPanel.java" index="3">
-<position info="not_deleted" x="899" y="7"/>
-</item>
-<item historyLabel="OptionsPanel.java" index="3">
-<position info="not_deleted" x="550" y="0"/>
-</item>
-<item historyLabel="MenuPanel.java" index="5">
-<position info="not_deleted" x="1482" y="203"/>
-</item>
-<item historyLabel="OptionsPanel.java" index="3">
-<position info="not_deleted" x="550" y="0"/>
-</item>
-<item historyLabel="OptionsPanel.java" index="3">
-<position info="not_deleted" x="540" y="0"/>
-</item>
-<item historyLabel="OptionsPanel.java" index="3">
-<position info="not_deleted" x="269" y="5"/>
-</item>
-<item historyLabel="MainFrame.java" index="2">
-<position info="not_deleted" x="1592" y="0"/>
-</item>
-<item historyLabel="OptionsPanel.java" index="3">
-<position info="not_deleted" x="269" y="5"/>
-</item>
-<item historyLabel="MainFrame.java" index="2">
-<position info="not_deleted" x="1592" y="0"/>
-</item>
-<item historyLabel="OptionsPanel.java" index="3">
-<position info="not_deleted" x="269" y="5"/>
-</item>
-<item historyLabel="MainFrame.java" index="2">
-<position info="not_deleted" x="1592" y="0"/>
-</item>
-<item historyLabel="OptionsPanel.java" index="3">
-<position info="not_deleted" x="269" y="5"/>
-</item>
-<item historyLabel="MainFrame.java" index="2">
-<position info="not_deleted" x="444" y="0"/>
-</item>
-<item historyLabel="OptionsPanel.java" index="3">
-<position info="not_deleted" x="495" y="0"/>
-</item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="644" y="0"/>
-</item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="953" y="0"/>
-</item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="973" y="0"/>
-</item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="938" y="7"/>
-</item>
-<item historyLabel="MainFrame.java" index="2">
-<position info="not_deleted" x="444" y="0"/>
-</item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="938" y="7"/>
-</item>
-<item historyLabel="MenuPanel.java" index="5">
-<position info="not_deleted" x="1482" y="203"/>
-</item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="547" y="0"/>
-</item>
-<item historyLabel="MenuPanel.java" index="5">
-<position info="not_deleted" x="1482" y="203"/>
-</item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="547" y="0"/>
-</item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="973" y="0"/>
-</item>
-<item historyLabel="MainFrame.java" index="2">
-<position info="not_deleted" x="1632" y="0"/>
-</item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="973" y="0"/>
-</item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="490" y="0"/>
-</item>
-<item historyLabel="InitPanel.java" index="4">
-<position info="not_deleted" x="551" y="0"/>
-</item>
-<item historyLabel="mainClass.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="mainClass.java" index="6">
-<position info="not_deleted" x="2365" y="0"/>
-</item>
-<item historyLabel="mainClass.java" index="6">
-<position info="not_deleted" x="2361" y="0"/>
-</item>
-<item historyLabel="GamePanel.java" index="1">
-<position info="not_deleted" x="667" y="0"/>
-</item>
-<item historyLabel="mainClass.java" index="6">
-<position info="not_deleted" x="2361" y="0"/>
-</item>
-<item historyLabel="rysujacyPanel.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ComboBoxItemListener.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="mainClass.java" index="6">
-<position info="not_deleted" x="1171" y="0"/>
-</item>
-<item historyLabel="ComboBoxItemListener.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item active="true" historyLabel="mainClass.java" index="6">
-<position info="not_deleted" x="1171" y="0"/>
+<item active="true" historyLabel="DrawingPanel.java" index="2">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -466,9 +466,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="right"/>
 </trimArea>
@@ -479,11 +476,28 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" tooltip="DŻAFAR/lab4/mainClass.java">
+<persistable path="/DŻAFAR/lab4/mainClass.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MedianFrame.java" tooltip="DŻAFAR/lab3/MedianFrame.java">
+<persistable path="/DŻAFAR/lab3/MedianFrame.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MedianFrame.java" tooltip="POJAVA/src/lab3/MedianFrame.java">
+<persistable path="/POJAVA/src/lab3/MedianFrame.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pencil.java" tooltip="DŻAFAR/lab6/Pencil.java">
+<persistable path="/DŻAFAR/lab6/Pencil.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawingPanel.java" tooltip="DŻAFAR/lab6/DrawingPanel.java">
+<persistable path="/DŻAFAR/lab6/DrawingPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="DŻAFAR/lab6/MainClass.java">
+<persistable path="/DŻAFAR/lab6/MainClass.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ComboBoxItemListener.java" tooltip="POJAVA/src/lab4/ComboBoxItemListener.java">
 <persistable path="/POJAVA/src/lab4/ComboBoxItemListener.java"/>
 </file>
@@ -510,24 +524,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="NGC_3810_(captured_by_the_Hubble_Space_Telescope).jpg" tooltip="VSProject/src/pictures/NGC_3810_(captured_by_the_Hubble_Space_Telescope).jpg">
 <persistable path="/VSProject/src/pictures/NGC_3810_(captured_by_the_Hubble_Space_Telescope).jpg"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GamePanel.java" tooltip="VSProject/src/Interface/GamePanel.java">
-<persistable path="/VSProject/src/Interface/GamePanel.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="InitPanel.java" tooltip="VSProject/src/Interface/InitPanel.java">
-<persistable path="/VSProject/src/Interface/InitPanel.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OptionsPanel.java" tooltip="VSProject/src/Interface/OptionsPanel.java">
-<persistable path="/VSProject/src/Interface/OptionsPanel.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MenuPanel.java" tooltip="VSProject/src/Interface/MenuPanel.java">
-<persistable path="/VSProject/src/Interface/MenuPanel.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainFrame.java" tooltip="VSProject/src/Interface/MainFrame.java">
-<persistable path="/VSProject/src/Interface/MainFrame.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="NumberFormatException.class" tooltip="java.lang.NumberFormatException">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=DŻAFAR/\/opt\/java\/jdk1.8.0_162\/jre\/lib\/rt.jar&lt;java.lang(NumberFormatException.class"/>
 </file>
 </mruList>
 </workbench>

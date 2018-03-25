@@ -1,9 +1,0 @@
-package lab4;
-
-public class JRadioButtonDemo {
-
-	public JRadioButtonDemo() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
