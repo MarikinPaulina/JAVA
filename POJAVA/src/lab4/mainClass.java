@@ -43,7 +43,7 @@ public class mainClass extends JFrame {
 			panelki[i] = new rysujacyPanel(this);
 			drawPanel.add(panelki[i]);
 			panelki[i].setBackground(new Color(j,0,0));
-			j +=17;
+			j +=256/9;
 		}
 		
 //		przycisk rysowania

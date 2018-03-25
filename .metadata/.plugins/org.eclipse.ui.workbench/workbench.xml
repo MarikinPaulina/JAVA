@@ -33,30 +33,27 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" partName="MainClass.java" path="/home/paulina/workspace/DŻAFAR/lab6/MainClass.java" title="MainClass.java" tooltip="DŻAFAR/lab6/MainClass.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainFrame.java" partName="mainFrame.java" path="/home/paulina/JAVA/POJAVA/src/lab4/mainFrame.java" title="mainFrame.java" tooltip="POJAVA/src/lab4/mainFrame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab4/mainFrame.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" partName="mainClass.java" path="/home/paulina/JAVA/POJAVA/src/lab4/mainClass.java" title="mainClass.java" tooltip="POJAVA/src/lab4/mainClass.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab4/mainClass.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1223" selectionTopPixel="169"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" partName="MainClass.java" path="/home/paulina/JAVA/DŻAFAR/lab6/MainClass.java" title="MainClass.java" tooltip="DŻAFAR/lab6/MainClass.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab6/MainClass.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2178" selectionTopPixel="859"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawingPanel.java" partName="DrawingPanel.java" path="/home/paulina/workspace/DŻAFAR/lab6/DrawingPanel.java" title="DrawingPanel.java" tooltip="DŻAFAR/lab6/DrawingPanel.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab6/DrawingPanel.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="184" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pencil.java" partName="Pencil.java" path="/home/paulina/workspace/DŻAFAR/lab6/Pencil.java" title="Pencil.java" tooltip="DŻAFAR/lab6/Pencil.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab6/Pencil.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="507" selectionTopPixel="129"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" partName="mainClass.java" path="/home/paulina/workspace/DŻAFAR/lab4/mainClass.java" title="mainClass.java" tooltip="DŻAFAR/lab4/mainClass.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab4/mainClass.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4530" selectionTopPixel="551"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
 <customFilters userDefinedPatternsEnabled="false">
@@ -88,11 +85,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (41 items)"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="465" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -104,7 +96,9 @@
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -124,7 +118,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -239,11 +233,11 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <fastViewBars>
 <fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
 <fastViews>
@@ -309,22 +303,11 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/MainClass.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/DrawingPanel.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/Pencil.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/MainClass.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/Pencil.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab4/mainClass.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/POJAVA/src/lab4/mainFrame.java"/>
 </editors>
-<item historyLabel="Pencil.java" index="3">
-<position info="not_deleted" x="151" y="9"/>
-</item>
-<item historyLabel="Pencil.java" index="3">
-<position info="not_deleted" x="181" y="5"/>
-</item>
-<item historyLabel="Pencil.java" index="3">
-<position info="not_deleted" x="561" y="4"/>
-</item>
-<item historyLabel="Pencil.java" index="3">
-<position info="not_deleted" x="527" y="4"/>
-</item>
-<item historyLabel="Pencil.java" index="3">
-<position info="not_deleted" x="514" y="0"/>
-</item>
 <item historyLabel="Pencil.java" index="3">
 <position info="not_deleted" x="328" y="10"/>
 </item>
@@ -457,8 +440,17 @@
 <item historyLabel="Pencil.java" index="3">
 <position info="not_deleted" x="507" y="0"/>
 </item>
-<item active="true" historyLabel="DrawingPanel.java" index="2">
+<item historyLabel="DrawingPanel.java" index="2">
 <position/>
+</item>
+<item historyLabel="MainClass.java" index="4"/>
+<item historyLabel="Pencil.java" index="5"/>
+<item historyLabel="mainClass.java" index="6"/>
+<item historyLabel="mainFrame.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="MainClass.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -480,6 +472,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="DŻAFAR/lab6/MainClass.java">
+<persistable path="/DŻAFAR/lab6/MainClass.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" tooltip="POJAVA/src/lab4/mainClass.java">
+<persistable path="/POJAVA/src/lab4/mainClass.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainFrame.java" tooltip="POJAVA/src/lab4/mainFrame.java">
+<persistable path="/POJAVA/src/lab4/mainFrame.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" tooltip="DŻAFAR/lab4/mainClass.java">
 <persistable path="/DŻAFAR/lab4/mainClass.java"/>
 </file>
@@ -495,17 +496,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawingPanel.java" tooltip="DŻAFAR/lab6/DrawingPanel.java">
 <persistable path="/DŻAFAR/lab6/DrawingPanel.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="DŻAFAR/lab6/MainClass.java">
-<persistable path="/DŻAFAR/lab6/MainClass.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ComboBoxItemListener.java" tooltip="POJAVA/src/lab4/ComboBoxItemListener.java">
 <persistable path="/POJAVA/src/lab4/ComboBoxItemListener.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="rysujacyPanel.java" tooltip="POJAVA/src/lab4/rysujacyPanel.java">
 <persistable path="/POJAVA/src/lab4/rysujacyPanel.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" tooltip="POJAVA/src/lab4/mainClass.java">
-<persistable path="/POJAVA/src/lab4/mainClass.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyGlassPanel.java" tooltip="VSProject/src/Interface/MyGlassPanel.java">
 <persistable path="/VSProject/src/Interface/MyGlassPanel.java"/>
@@ -521,9 +516,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ThreeButtonFrame.java" tooltip="POJAVA/src/lab2/ThreeButtonFrame.java">
 <persistable path="/POJAVA/src/lab2/ThreeButtonFrame.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="NGC_3810_(captured_by_the_Hubble_Space_Telescope).jpg" tooltip="VSProject/src/pictures/NGC_3810_(captured_by_the_Hubble_Space_Telescope).jpg">
-<persistable path="/VSProject/src/pictures/NGC_3810_(captured_by_the_Hubble_Space_Telescope).jpg"/>
 </file>
 </mruList>
 </workbench>

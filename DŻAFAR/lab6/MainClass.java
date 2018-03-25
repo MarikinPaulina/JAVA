@@ -17,6 +17,7 @@ public class MainClass extends JFrame {
 //		Ustawienie Layoutów
 		frame.add(drawP,BorderLayout.CENTER);
 		drawP.setBackground(Color.black);
+		upMenuP.setLayout(new BoxLayout(upMenuP,BoxLayout.X_AXIS));
 		frame.add(upMenuP,BorderLayout.NORTH);
 		sideMenuP.setLayout(new BoxLayout(sideMenuP,BoxLayout.Y_AXIS));
 		frame.add(sideMenuP,BorderLayout.WEST);
