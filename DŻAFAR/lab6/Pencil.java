@@ -4,17 +4,12 @@ import java.awt.Graphics2D;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pencil {
+public class Pencil extends Figure{
 
 	public Pencil() {
-		xList = new ArrayList<Integer>();
-        yList = new ArrayList<Integer>();
+		super();
 	}
 
-	public void addPoint(int x, int y) {
-        xList.add(x);
-        yList.add(y);
-     }
 	
 	public void draw(Graphics2D g2d) { 
         for (int i = 0; i < xList.size() - 1; ++i) 
@@ -23,6 +18,4 @@ public class Pencil {
         }
      }
 	
-	 private List<Integer> xList;
-     private List<Integer> yList;
 }

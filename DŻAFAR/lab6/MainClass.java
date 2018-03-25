@@ -26,13 +26,13 @@ public class MainClass extends JFrame {
 		group.add(pencilB);
 		group.add(lineB);
 		group.add(eraserB);
-		group.add(squareB);
-		group.add(fullSquareB);
+		group.add(rectangleB);
+		group.add(fullRectangleB);
 		upMenuP.add(pencilB);
 		upMenuP.add(lineB);
 		upMenuP.add(eraserB);
-		upMenuP.add(squareB);
-		upMenuP.add(fullSquareB);
+		upMenuP.add(rectangleB);
+		upMenuP.add(fullRectangleB);
 //		Slider do wyboru grubości
 		sideMenuP.add(thickS);
 //		Przyciski do czyszczenia i wyboru koloru
@@ -43,8 +43,8 @@ public class MainClass extends JFrame {
 		pencilB.addActionListener(new radioListener());
 		lineB.addActionListener(new radioListener());
 		eraserB.addActionListener(new radioListener());
-		squareB.addActionListener(new radioListener());
-		fullSquareB.addActionListener(new radioListener());
+		rectangleB.addActionListener(new radioListener());
+		fullRectangleB.addActionListener(new radioListener());
 		
 	}
 
@@ -74,11 +74,11 @@ public class MainClass extends JFrame {
 			 	case "Gumka":
 			 		shape = "Gumka";
 			 		break;
-			 	case "Kwadrat":
-			 		shape = "Kwadrat";
+			 	case "Prostokąt":
+			 		shape = "Prostokąt";
 			 		break;
-			 	case "Wypełniony Kwadrat":
-			 		shape = "Wypełniony Kwadrat";
+			 	case "Wypełniony Prostokąt":
+			 		shape = "Wypełniony Prostokąt";
 			 		break;
 			 }
 				 
@@ -98,8 +98,8 @@ public class MainClass extends JFrame {
 	JRadioButton pencilB = new JRadioButton("Ołówek",true);
 	JRadioButton lineB = new JRadioButton("Linia",false);
 	JRadioButton eraserB = new JRadioButton("Gumka",false);
-	JRadioButton squareB = new JRadioButton("Kwadrat",false);
-	JRadioButton fullSquareB = new JRadioButton("Wypełniony kwadrat",false);
+	JRadioButton rectangleB = new JRadioButton("Prostokąt",false);
+	JRadioButton fullRectangleB = new JRadioButton("Wypełniony Prostokąt",false);
 	String shape = "Ołówek";
 	
 //	Przyciski do czyszczenia i wyboru koloru

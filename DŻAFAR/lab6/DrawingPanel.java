@@ -2,6 +2,7 @@ package lab6;
 
 import java.awt.Color;
 import java.awt.LayoutManager;
+import java.util.ArrayList;
 
 import javax.swing.JPanel;
 
@@ -27,4 +28,5 @@ public class DrawingPanel extends JPanel {
 	}
 
 	MainClass frame;
+	ArrayList<Figure> figures = new ArrayList<Figure>();
 }
