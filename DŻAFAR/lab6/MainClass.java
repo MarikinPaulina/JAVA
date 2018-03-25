@@ -35,9 +35,11 @@ public class MainClass extends JFrame {
 		upMenuP.add(fullRectangleB);
 //		Slider do wyboru grubości
 		sideMenuP.add(thickS);
-//		Przyciski do czyszczenia i wyboru koloru
+//		Przyciski do czyszczenia i wyboru koloru + zapisz/wczytaj
 		sideMenuP.add(colorB);
 		sideMenuP.add(cleanB);
+		sideMenuP.add(saveB);
+		sideMenuP.add(loadB);
 
 //		Listenery do komponentów
 		pencilB.addActionListener(new radioListener());
@@ -102,9 +104,11 @@ public class MainClass extends JFrame {
 	JRadioButton fullRectangleB = new JRadioButton("Wypełniony Prostokąt",false);
 	String shape = "Ołówek";
 	
-//	Przyciski do czyszczenia i wyboru koloru
+//	Przyciski do czyszczenia i wyboru koloru + wczytaj/zapisz
 	JButton cleanB = new JButton("Wyczyść");
 	JButton colorB = new JButton("Kolor linii");
+	JButton saveB = new JButton("Zapisz");
+	JButton loadB = new JButton("Wczytaj");
 //	cleanB.set
 //	Slider do wyboru grubości
 	JSlider thickS = new JSlider(SwingConstants.VERTICAL,1,50,1);
