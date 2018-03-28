@@ -6,9 +6,10 @@ import java.util.List;
 
 public abstract class Figure {
 
-	public Figure() {
+	public Figure(DrawingPanel panel) {
 		xList = new ArrayList<Integer>();
         yList = new ArrayList<Integer>();
+        this.panel = panel;
 	}
 	
 	public void addPoint(int x, int y) {
@@ -20,4 +21,5 @@ public abstract class Figure {
 
 	 protected List<Integer> xList;
      protected List<Integer> yList;
+     DrawingPanel panel;
 }

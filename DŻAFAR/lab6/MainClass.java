@@ -3,8 +3,16 @@ package lab6;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.filechooser.FileNameExtensionFilter;
 
 public class MainClass extends JFrame {
 
@@ -16,7 +24,7 @@ public class MainClass extends JFrame {
 		final MainClass frame = this;
 //		Ustawienie Layoutów
 		frame.add(drawP,BorderLayout.CENTER);
-		drawP.setBackground(Color.black);
+		drawP.setBackground(Color.white);
 		upMenuP.setLayout(new BoxLayout(upMenuP,BoxLayout.X_AXIS));
 		frame.add(upMenuP,BorderLayout.NORTH);
 		sideMenuP.setLayout(new BoxLayout(sideMenuP,BoxLayout.Y_AXIS));
@@ -35,19 +43,78 @@ public class MainClass extends JFrame {
 		upMenuP.add(fullRectangleB);
 //		Slider do wyboru grubości
 		sideMenuP.add(thickS);
-//		Przyciski do czyszczenia i wyboru koloru + zapisz/wczytaj
+		thickS.addChangeListener(new SliderChangeListener());
+//		Przyciski do czyszczenia i wyboru koloru
 		sideMenuP.add(colorB);
 		sideMenuP.add(cleanB);
-		sideMenuP.add(saveB);
-		sideMenuP.add(loadB);
+		
+//		I  listenery do nich
+		ActionListener colorListener = new ActionListener() {
 
-//		Listenery do komponentów
+			public void actionPerformed(ActionEvent arg0) {
+				color = JColorChooser.showDialog(null, "Wybierz kolor", color);
+			}
+
+		};
+		colorB.addActionListener(colorListener);
+		ActionListener cleanListener = new ActionListener() {
+
+			public void actionPerformed(ActionEvent arg0) {
+				drawP.figures.clear();
+				drawP.image2 = null;
+				repaint();
+			}
+
+		};
+		cleanB.addActionListener(cleanListener);
+
+//		Listenery do RButtonow
 		pencilB.addActionListener(new radioListener());
 		lineB.addActionListener(new radioListener());
 		eraserB.addActionListener(new radioListener());
 		rectangleB.addActionListener(new radioListener());
 		fullRectangleB.addActionListener(new radioListener());
-		
+//		Zapis w wczytywanie - komponenty
+		JMenuBar menuBar = new JMenuBar();
+		this.setJMenuBar(menuBar);
+		JMenu options = new JMenu("Opcje");
+		menuBar.add(options);
+		JMenuItem save = new JMenuItem("Zapisz");
+		options.add(save);
+		JMenuItem load = new JMenuItem("Wczytaj");
+		options.add(load);
+//		Zapis i wczytywanie - filechooser
+		chooser.setFileFilter(filter);
+//		Zapis i wczytywanie - listenery
+		save.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent arg0) {
+				chooser.showOpenDialog(null);
+				File file = chooser.getSelectedFile();
+			try {
+				if(drawP.image2 == null)
+				{
+					ImageIO.write(drawP.image, "png", file);
+				}
+				else
+				{
+					ImageIO.write(drawP.image2, "png", file);
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			}});
+		load.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent arg0) {
+				chooser.showOpenDialog(null);
+				File file = chooser.getSelectedFile();
+				try {
+				drawP.image2 = ImageIO.read(file);
+				} catch (IOException e) {
+				System.err.println("Blad odczytu obrazka");
+				e.printStackTrace();
+				}
+				drawP.repaint();
+			}});
 	}
 
 	public MainClass(GraphicsConfiguration gc) {
@@ -88,6 +155,13 @@ public class MainClass extends JFrame {
 		  }
 	}
 	
+	public class SliderChangeListener implements ChangeListener{
+		
+		public void stateChanged(ChangeEvent arg0) {
+			thickInt = thickS.getValue();
+		}
+	}
+	
 //	Ogólne dane
 	Dimension size = this.getSize();
 //	panele
@@ -104,14 +178,17 @@ public class MainClass extends JFrame {
 	JRadioButton fullRectangleB = new JRadioButton("Wypełniony Prostokąt",false);
 	String shape = "Ołówek";
 	
-//	Przyciski do czyszczenia i wyboru koloru + wczytaj/zapisz
+//	Przyciski do czyszczenia i wyboru koloru(z ColorChoser)
 	JButton cleanB = new JButton("Wyczyść");
 	JButton colorB = new JButton("Kolor linii");
-	JButton saveB = new JButton("Zapisz");
-	JButton loadB = new JButton("Wczytaj");
+	Color color = Color.black;
 //	cleanB.set
 //	Slider do wyboru grubości
 	JSlider thickS = new JSlider(SwingConstants.VERTICAL,1,50,1);
+	int thickInt = 1; 
+//	Zapisywanie i wczytywanie
+	JFileChooser chooser = new JFileChooser();
+    FileNameExtensionFilter filter = new FileNameExtensionFilter("Images", "jpg", "gif", "png");
 
 	public static void main(String[] args) {
 		MainClass frame = new MainClass();

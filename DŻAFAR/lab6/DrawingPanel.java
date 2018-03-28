@@ -6,15 +6,17 @@ import java.awt.Graphics2D;
 import java.awt.LayoutManager;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
 import javax.swing.JPanel;
 
-public class DrawingPanel extends JPanel implements MouseListener {
+public class DrawingPanel extends JPanel{
 
 	public DrawingPanel(MainClass frame) {
 		this.frame = frame;
-		this.addMouseListener(this);
+		this.addMouseListener(listener);
+		this.addMouseMotionListener(listener);
 	}
 
 	public DrawingPanel(LayoutManager layout) {
@@ -30,79 +32,42 @@ public class DrawingPanel extends JPanel implements MouseListener {
 	}
 
 	MainClass frame;
-	int counter = -1;
+	BufferedImage image;
+	BufferedImage image2;
 	ArrayList<Figure> figures = new ArrayList<Figure>();
-	@Override
-	public void mouseClicked(MouseEvent e) {
-		if (frame.shape == "Ołówek" || frame.shape == "Gumka")
+	ListeningMouse listener = new ListeningMouse(this);
+	
+	public void paintComponent(Graphics g)
+	{
+		super.paintComponent(g);
+		Graphics2D g2d = (Graphics2D) g;
+		if(image2 == null)
 		{
-			System.out.println("Dodał punkt");
-			figures.get(figures.size()-1).addPoint(e.getX(), e.getY());
-		}
-		
-	}
-
-	@Override
-	public void mousePressed(MouseEvent e) {
-		if (frame.shape == "Ołówek")
-		{
-			Pencil figure = new Pencil();
-			figure.addPoint(e.getX(), e.getY());
-			System.out.println("Dodał figurę");
-			figures.add(figure);
-		}
-		else if (frame.shape == "Linia")
-		{
-			Line figure = new Line();
-			figure.addPoint(e.getX(), e.getY());
-			figures.add(figure);
-		}
-		else if (frame.shape == "Gumka")
-		{
-			Eraser figure = new Eraser();
-			figure.addPoint(e.getX(), e.getY());
-			figures.add(figure);
-		}
-		else if (frame.shape == "Prostokąt")
-		{
-			Rectangle figure = new Rectangle();
-			figure.addPoint(e.getX(), e.getY());
-			figures.add(figure);
+			if(image == null)
+			{
+				image = (BufferedImage)this.createImage(this.getWidth(),this.getHeight());
+			}
+			Graphics2D g2 = image.createGraphics();
+			g2.setColor(Color.white);
+		    g2.fillRect(0, 0, this.getWidth(),this.getHeight());
+			for(Figure i : figures)
+			{
+	//			i.draw(g2d);
+				i.draw(g2);
+			}
+			g2d.drawImage(image, 0, 0, this);
 		}
 		else
 		{
-			FullRectangle figure = new FullRectangle();
-			figure.addPoint(e.getX(), e.getY());
-			figures.add(figure);
+			Graphics2D g2 = image2.createGraphics();
+			for(Figure i : figures)
+			{
+	//			i.draw(g2d);
+				i.draw(g2);
+			}
+			g2d.drawImage(image2, 0, 0, this);
 		}
-	}
-
-	@Override
-	public void mouseReleased(MouseEvent e) {
-		if (frame.shape == "Linia" || frame.shape == "Prostokąt" || frame.shape == "Wypełniony Prostokąt")
-		{
-			figures.get(figures.size()-1).addPoint(e.getX(), e.getY());
-		}
-		repaint();
-	}
-
-	@Override
-	public void mouseEntered(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void mouseExited(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
 	}
 	
-	public void paintComponent(Graphics2D g2d)
-	{
-		for(Figure i : figures)
-		{
-			i.draw(g2d);
-		}
-	}
+
 }
