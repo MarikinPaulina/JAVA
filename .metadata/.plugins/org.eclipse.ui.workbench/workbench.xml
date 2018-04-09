@@ -34,30 +34,25 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" partName="MainClass.java" path="/home/paulina/JAVA/DŻAFAR/lab6/MainClass.java" title="MainClass.java" tooltip="DŻAFAR/lab6/MainClass.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab6/MainClass.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5357" selectionTopPixel="2444"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" partName="MainClass.java" path="/home/paulina/JAVA/POJAVA/src/lab7/MainClass.java" title="MainClass.java" tooltip="POJAVA/src/lab7/MainClass.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab7/MainClass.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="104" selectionOffset="1743" selectionTopPixel="699"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawingPanel.java" partName="DrawingPanel.java" path="/home/paulina/JAVA/DŻAFAR/lab6/DrawingPanel.java" title="DrawingPanel.java" tooltip="DŻAFAR/lab6/DrawingPanel.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab6/DrawingPanel.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1535" selectionTopPixel="486"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" partName="MainClass.java" path="/home/paulina/JAVA/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java" title="MainClass.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="789" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" partName="mainClass.java" path="/home/paulina/JAVA/DŻAFAR/lab4/mainClass.java" title="mainClass.java" tooltip="DŻAFAR/lab4/mainClass.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab4/mainClass.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="126" selectionOffset="2920" selectionTopPixel="1023"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PanelRysowania.java" partName="PanelRysowania.java" path="/home/paulina/JAVA/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java" title="PanelRysowania.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1894" selectionTopPixel="871"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Figure.java" partName="Figure.java" path="/home/paulina/JAVA/DŻAFAR/lab6/Figure.java" title="Figure.java" tooltip="DŻAFAR/lab6/Figure.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab6/Figure.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="54"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Rectangle.java" partName="Rectangle.java" path="/home/paulina/JAVA/DŻAFAR/lab6/Rectangle.java" title="Rectangle.java" tooltip="DŻAFAR/lab6/Rectangle.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab6/Rectangle.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="126"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Prostokat.java" partName="Prostokat.java" path="/home/paulina/JAVA/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java" title="Prostokat.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1371" selectionTopPixel="871"/>
 </editor>
 </editors>
 <views>
@@ -97,7 +92,7 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (39 items)"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="465" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -132,7 +127,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -280,7 +275,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.1904762" ratioLeft="252" ratioRight="1071" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.5622047" ratioLeft="357" ratioRight="278" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -313,165 +308,161 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/DrawingPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/MainClass.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab4/mainClass.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/Eraser.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/FullRectangle.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/Line.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=DŻAFAR/\/opt\/java\/jdk1.8.0_162\/jre\/lib\/rt.jar&lt;javax.imageio(ImageIO.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/Figure.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/Rectangle.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/DrawingPanel.java"/>
 </editors>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="5063" y="0"/>
+<item historyLabel="MainClass.java" index="0">
+<position info="not_deleted" x="983" y="0"/>
 </item>
-<item historyLabel="DrawingPanel.java" index="0">
-<position info="not_deleted" x="1133" y="0"/>
+<item historyLabel="MainClass.java" index="3">
+<position info="not_deleted" x="3212" y="34"/>
 </item>
-<item historyLabel="mainClass.java" index="2">
-<position info="not_deleted" x="2849" y="67"/>
+<item historyLabel="DrawingPanel.java" index="4">
+<position info="not_deleted" x="748" y="20"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="5063" y="0"/>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="525" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="2378" y="0"/>
+<item historyLabel="MainClass.java" index="3">
+<position info="not_deleted" x="3212" y="34"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="2378" y="0"/>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="525" y="0"/>
 </item>
-<item historyLabel="Eraser.java" index="3">
-<position info="not_deleted" x="288" y="0"/>
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="1021" y="0"/>
 </item>
-<item historyLabel="DrawingPanel.java" index="0">
-<position info="not_deleted" x="1269" y="0"/>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="525" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="2378" y="0"/>
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="1286" y="0"/>
 </item>
-<item historyLabel="mainClass.java" index="2">
-<position info="not_deleted" x="2920" y="126"/>
+<item historyLabel="DrawingPanel.java" index="4">
+<position info="not_deleted" x="748" y="20"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="2378" y="0"/>
+<item historyLabel="MainClass.java" index="3">
+<position info="not_deleted" x="3212" y="34"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="1281" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="3">
+<position info="not_deleted" x="3212" y="34"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="4">
+<position info="not_deleted" x="748" y="20"/>
+</item>
+<item historyLabel="MainClass.java" index="3">
+<position info="not_deleted" x="3212" y="34"/>
+</item>
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="1277" y="4"/>
+</item>
+<item historyLabel="PanelRysowania.java" index="1">
 <position/>
 </item>
-<item historyLabel="MainClass.java" index="1">
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="1308" y="0"/>
+</item>
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="1407" y="0"/>
+</item>
+<item historyLabel="MainClass.java" index="3">
+<position info="not_deleted" x="3212" y="34"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="4">
+<position info="not_deleted" x="748" y="20"/>
+</item>
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="1342" y="0"/>
+</item>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="525" y="0"/>
+</item>
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="1662" y="0"/>
+</item>
+<item historyLabel="PanelRysowania.java" index="1">
 <position/>
 </item>
-<item historyLabel="MainClass.java" index="1">
+<item historyLabel="MainClass.java" index="3">
+<position info="not_deleted" x="3207" y="0"/>
+</item>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="525" y="0"/>
+</item>
+<item historyLabel="PanelRysowania.java" index="1">
 <position/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position/>
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="2009" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="2984" y="0"/>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="1382" y="0"/>
 </item>
-<item historyLabel="FullRectangle.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="DrawingPanel.java" index="4">
+<position info="not_deleted" x="973" y="32"/>
 </item>
-<item historyLabel="Line.java" index="5">
-<position info="not_deleted" x="258" y="20"/>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="1382" y="0"/>
 </item>
-<item historyLabel="FullRectangle.java" index="4">
-<position info="not_deleted" x="274" y="0"/>
+<item historyLabel="DrawingPanel.java" index="4">
+<position info="not_deleted" x="1347" y="33"/>
 </item>
-<item historyLabel="Line.java" index="5">
-<position info="not_deleted" x="499" y="32"/>
+<item historyLabel="MainClass.java" index="3">
+<position info="not_deleted" x="3207" y="0"/>
 </item>
-<item historyLabel="FullRectangle.java" index="4">
-<position info="not_deleted" x="643" y="0"/>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="1380" y="0"/>
 </item>
-<item historyLabel="Line.java" index="5">
-<position info="not_deleted" x="499" y="32"/>
+<item historyLabel="DrawingPanel.java" index="4">
+<position info="not_deleted" x="1347" y="33"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="712" y="0"/>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="294" y="0"/>
 </item>
-<item historyLabel="DrawingPanel.java" index="0">
-<position info="not_deleted" x="1212" y="59"/>
+<item historyLabel="MainClass.java" index="0">
+<position info="not_deleted" x="983" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="712" y="0"/>
+<item historyLabel="DrawingPanel.java" index="4">
+<position info="not_deleted" x="1347" y="33"/>
 </item>
-<item historyLabel="DrawingPanel.java" index="0">
-<position info="not_deleted" x="790" y="0"/>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="1371" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="712" y="0"/>
+<item historyLabel="MainClass.java" index="3">
+<position info="not_deleted" x="3207" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="3376" y="0"/>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="1371" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="3218" y="0"/>
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="2009" y="0"/>
 </item>
-<item historyLabel="DrawingPanel.java" index="0">
-<position info="not_deleted" x="790" y="0"/>
+<item historyLabel="MainClass.java" index="0">
+<position info="not_deleted" x="776" y="4"/>
 </item>
-<item historyLabel="DrawingPanel.java" index="0">
-<position info="not_deleted" x="1535" y="0"/>
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="2009" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position/>
+<item historyLabel="Prostokat.java" index="2">
+<position info="not_deleted" x="1371" y="0"/>
 </item>
-<item historyLabel="ImageIO.class" index="6">
-<position info="not_deleted" x="49596" y="0"/>
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="2009" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position/>
+<item historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="523" y="32"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="3208" y="38"/>
+<item historyLabel="MainClass.java" index="0">
+<position info="not_deleted" x="789" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="1">
-<position/>
-</item>
-<item historyLabel="MainClass.java" index="1">
-<position/>
-</item>
-<item historyLabel="DrawingPanel.java" index="0">
-<position info="not_deleted" x="1535" y="0"/>
-</item>
-<item historyLabel="MainClass.java" index="1">
-<position/>
-</item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="3244" y="0"/>
-</item>
-<item historyLabel="DrawingPanel.java" index="0">
-<position info="not_deleted" x="1535" y="0"/>
-</item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="1858" y="0"/>
-</item>
-<item historyLabel="DrawingPanel.java" index="0">
-<position info="not_deleted" x="1535" y="0"/>
-</item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="1858" y="0"/>
-</item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="2887" y="0"/>
-</item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="5329" y="0"/>
-</item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="5305" y="23"/>
-</item>
-<item historyLabel="MainClass.java" index="1">
-<position info="not_deleted" x="5357" y="0"/>
-</item>
-<item historyLabel="Figure.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item active="true" historyLabel="Rectangle.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="PanelRysowania.java" index="1">
+<position info="not_deleted" x="523" y="32"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -479,9 +470,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="right"/>
 </trimArea>
@@ -492,55 +480,54 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Rectangle.java" tooltip="DŻAFAR/lab6/Rectangle.java">
-<persistable path="/DŻAFAR/lab6/Rectangle.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Figure.java" tooltip="DŻAFAR/lab6/Figure.java">
-<persistable path="/DŻAFAR/lab6/Figure.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ImageIO.class" tooltip="javax.imageio.ImageIO">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=DŻAFAR/\/opt\/java\/jdk1.8.0_162\/jre\/lib\/rt.jar&lt;javax.imageio(ImageIO.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Line.java" tooltip="DŻAFAR/lab6/Line.java">
-<persistable path="/DŻAFAR/lab6/Line.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FullRectangle.java" tooltip="DŻAFAR/lab6/FullRectangle.java">
-<persistable path="/DŻAFAR/lab6/FullRectangle.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Eraser.java" tooltip="DŻAFAR/lab6/Eraser.java">
-<persistable path="/DŻAFAR/lab6/Eraser.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="mainClass.java" tooltip="DŻAFAR/lab4/mainClass.java">
-<persistable path="/DŻAFAR/lab4/mainClass.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Pencil.java" tooltip="DŻAFAR/lab6/Pencil.java">
-<persistable path="/DŻAFAR/lab6/Pencil.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="rysujacyPanel.java" tooltip="DŻAFAR/lab4/rysujacyPanel.java">
-<persistable path="/DŻAFAR/lab4/rysujacyPanel.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiListenerFrame.java" tooltip="POJAVA/src/lab3/MultiListenerFrame.java">
-<persistable path="/POJAVA/src/lab3/MultiListenerFrame.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiListenerFrame.java" tooltip="DŻAFAR/lab3/MultiListenerFrame.java">
-<persistable path="/DŻAFAR/lab3/MultiListenerFrame.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListeningMouse.java" tooltip="DŻAFAR/lab6/ListeningMouse.java">
-<persistable path="/DŻAFAR/lab6/ListeningMouse.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MedianFrame.java" tooltip="DŻAFAR/lab3/MedianFrame.java">
-<persistable path="/DŻAFAR/lab3/MedianFrame.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="figura.java" tooltip="DŻAFAR/lab6/figura.java">
-<persistable path="/DŻAFAR/lab6/figura.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawingPanel.java" tooltip="DŻAFAR/lab6/DrawingPanel.java">
 <persistable path="/DŻAFAR/lab6/DrawingPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="DŻAFAR/lab6/MainClass.java">
+<persistable path="/DŻAFAR/lab6/MainClass.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlikiGraficzne0.java" tooltip="JavaWyklad6/src/pw/java/wyk6/animacje/PlikiGraficzne0.java">
+<persistable path="/JavaWyklad6/src/pw/java/wyk6/animacje/PlikiGraficzne0.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="obrazek0.jpg" tooltip="JavaWyklad6/src/pw/java/wyk6/animacje/obrazki/obrazek0.jpg">
+<persistable path="/JavaWyklad6/src/pw/java/wyk6/animacje/obrazki/obrazek0.jpg"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Prostokat.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java">
+<persistable path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PanelRysowania.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java">
+<persistable path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java">
+<persistable path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Close.java" tooltip="POJAVA/src/lab7/Close.java">
+<persistable path="/POJAVA/src/lab7/Close.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AnimatedButton.java" tooltip="POJAVA/src/lab7/AnimatedButton.java">
+<persistable path="/POJAVA/src/lab7/AnimatedButton.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColorPanel.java" tooltip="POJAVA/src/lab7/ColorPanel.java">
+<persistable path="/POJAVA/src/lab7/ColorPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="POJAVA/src/lab7/MainClass.java">
+<persistable path="/POJAVA/src/lab7/MainClass.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JButtonScheduled.java" tooltip="DŻAFAR/pl/edu/pw/fizyka/java/lab7/przyklady/JButtonScheduled.java">
+<persistable path="/DŻAFAR/pl/edu/pw/fizyka/java/lab7/przyklady/JButtonScheduled.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JButtonRunnable.java" tooltip="DŻAFAR/pl/edu/pw/fizyka/java/lab7/przyklady/JButtonRunnable.java">
+<persistable path="/DŻAFAR/pl/edu/pw/fizyka/java/lab7/przyklady/JButtonRunnable.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColorfulPanel.java" tooltip="DŻAFAR/lab7/ColorfulPanel.java">
+<persistable path="/DŻAFAR/lab7/ColorfulPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="DŻAFAR/lab7/MainClass.java">
+<persistable path="/DŻAFAR/lab7/MainClass.java"/>
 </file>
 </mruList>
 </workbench>
