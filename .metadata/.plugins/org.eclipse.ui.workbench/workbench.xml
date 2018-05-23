@@ -32,27 +32,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" partName="MainClass.java" path="/home/paulina/JAVA/POJAVA/src/lab7/MainClass.java" title="MainClass.java" tooltip="POJAVA/src/lab7/MainClass.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/POJAVA/src/lab7/MainClass.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="104" selectionOffset="1743" selectionTopPixel="699"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExampleAudioPlayer.java" partName="ExampleAudioPlayer.java" path="/home/paulina/JAVA/JavaFXmultimedia/src/javapw/sound/zad1/ExampleAudioPlayer.java" title="ExampleAudioPlayer.java" tooltip="JavaFXmultimedia/src/javapw/sound/zad1/ExampleAudioPlayer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaFXmultimedia/src/javapw/sound/zad1/ExampleAudioPlayer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2217" selectionTopPixel="498"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" partName="MainClass.java" path="/home/paulina/JAVA/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java" title="MainClass.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="789" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PanelRysowania.java" partName="PanelRysowania.java" path="/home/paulina/JAVA/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java" title="PanelRysowania.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1894" selectionTopPixel="871"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Prostokat.java" partName="Prostokat.java" path="/home/paulina/JAVA/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java" title="Prostokat.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1371" selectionTopPixel="871"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" partName="MainClass.java" path="/home/paulina/JAVA/DŻAFAR/lab6/MainClass.java" title="MainClass.java" tooltip="DŻAFAR/lab6/MainClass.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DŻAFAR/lab6/MainClass.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="42" selectionOffset="5221" selectionTopPixel="2499"/>
 </editor>
 </editors>
 <views>
@@ -90,10 +80,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="465" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -127,7 +113,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -308,161 +294,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JavaFXmultimedia/src/javapw/sound/zad1/ExampleAudioPlayer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/POJAVA/src/lab8/MainClass.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/POJAVA/src/lab8/MenuPanel.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/MainClass.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DŻAFAR/lab6/DrawingPanel.java"/>
 </editors>
-<item historyLabel="MainClass.java" index="0">
-<position info="not_deleted" x="983" y="0"/>
-</item>
-<item historyLabel="MainClass.java" index="3">
-<position info="not_deleted" x="3212" y="34"/>
-</item>
-<item historyLabel="DrawingPanel.java" index="4">
-<position info="not_deleted" x="748" y="20"/>
-</item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="525" y="0"/>
-</item>
-<item historyLabel="MainClass.java" index="3">
-<position info="not_deleted" x="3212" y="34"/>
-</item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="525" y="0"/>
-</item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="1021" y="0"/>
-</item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="525" y="0"/>
-</item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="1286" y="0"/>
-</item>
-<item historyLabel="DrawingPanel.java" index="4">
-<position info="not_deleted" x="748" y="20"/>
-</item>
-<item historyLabel="MainClass.java" index="3">
-<position info="not_deleted" x="3212" y="34"/>
-</item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="1281" y="0"/>
-</item>
-<item historyLabel="MainClass.java" index="3">
-<position info="not_deleted" x="3212" y="34"/>
-</item>
-<item historyLabel="DrawingPanel.java" index="4">
-<position info="not_deleted" x="748" y="20"/>
-</item>
-<item historyLabel="MainClass.java" index="3">
-<position info="not_deleted" x="3212" y="34"/>
-</item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="1277" y="4"/>
-</item>
-<item historyLabel="PanelRysowania.java" index="1">
+<item historyLabel="ExampleAudioPlayer.java" index="0">
 <position/>
 </item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="1308" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
 </item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="1407" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
 </item>
-<item historyLabel="MainClass.java" index="3">
-<position info="not_deleted" x="3212" y="34"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
 </item>
-<item historyLabel="DrawingPanel.java" index="4">
-<position info="not_deleted" x="748" y="20"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="1701" y="0"/>
 </item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="1342" y="0"/>
+<item historyLabel="MainClass.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="525" y="0"/>
+<item historyLabel="MenuPanel.java" index="2">
+<position info="not_deleted" x="584" y="36"/>
 </item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="1662" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="1701" y="0"/>
 </item>
-<item historyLabel="PanelRysowania.java" index="1">
+<item historyLabel="MenuPanel.java" index="2">
+<position info="not_deleted" x="567" y="55"/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="1701" y="0"/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="1723" y="0"/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="4432" y="52"/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="1638" y="57"/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="1637" y="0"/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
 <position/>
 </item>
 <item historyLabel="MainClass.java" index="3">
-<position info="not_deleted" x="3207" y="0"/>
+<position info="not_deleted" x="1471" y="184"/>
 </item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="525" y="0"/>
-</item>
-<item historyLabel="PanelRysowania.java" index="1">
+<item historyLabel="ExampleAudioPlayer.java" index="0">
 <position/>
 </item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="2009" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="2855" y="0"/>
 </item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="1382" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="2968" y="48"/>
 </item>
-<item historyLabel="DrawingPanel.java" index="4">
-<position info="not_deleted" x="973" y="32"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="4485" y="28"/>
 </item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="1382" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="2636" y="6"/>
 </item>
-<item historyLabel="DrawingPanel.java" index="4">
-<position info="not_deleted" x="1347" y="33"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="2666" y="0"/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="3365" y="0"/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="1320" y="0"/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position/>
+</item>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="2163" y="0"/>
 </item>
 <item historyLabel="MainClass.java" index="3">
-<position info="not_deleted" x="3207" y="0"/>
+<position info="not_deleted" x="2719" y="72"/>
 </item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="1380" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="2163" y="0"/>
 </item>
-<item historyLabel="DrawingPanel.java" index="4">
-<position info="not_deleted" x="1347" y="33"/>
-</item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="294" y="0"/>
-</item>
-<item historyLabel="MainClass.java" index="0">
-<position info="not_deleted" x="983" y="0"/>
-</item>
-<item historyLabel="DrawingPanel.java" index="4">
-<position info="not_deleted" x="1347" y="33"/>
-</item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="1371" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="1320" y="0"/>
 </item>
 <item historyLabel="MainClass.java" index="3">
-<position info="not_deleted" x="3207" y="0"/>
+<position info="not_deleted" x="5221" y="42"/>
 </item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="1371" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="1320" y="0"/>
 </item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="2009" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="2746" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="0">
-<position info="not_deleted" x="776" y="4"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="1518" y="0"/>
 </item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="2009" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="2153" y="0"/>
 </item>
-<item historyLabel="Prostokat.java" index="2">
-<position info="not_deleted" x="1371" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="1802" y="0"/>
 </item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="2009" y="0"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="2153" y="0"/>
 </item>
-<item historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="523" y="32"/>
+<item historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="2153" y="0"/>
 </item>
-<item historyLabel="MainClass.java" index="0">
-<position info="not_deleted" x="789" y="0"/>
-</item>
-<item active="true" historyLabel="PanelRysowania.java" index="1">
-<position info="not_deleted" x="523" y="32"/>
+<item active="true" historyLabel="ExampleAudioPlayer.java" index="0">
+<position info="not_deleted" x="2187" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -484,50 +469,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawingPanel.java" tooltip="DŻAFAR/lab6/DrawingPanel.java">
-<persistable path="/DŻAFAR/lab6/DrawingPanel.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="DŻAFAR/lab6/MainClass.java">
 <persistable path="/DŻAFAR/lab6/MainClass.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PlikiGraficzne0.java" tooltip="JavaWyklad6/src/pw/java/wyk6/animacje/PlikiGraficzne0.java">
-<persistable path="/JavaWyklad6/src/pw/java/wyk6/animacje/PlikiGraficzne0.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MenuPanel.java" tooltip="POJAVA/src/lab8/MenuPanel.java">
+<persistable path="/POJAVA/src/lab8/MenuPanel.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="obrazek0.jpg" tooltip="JavaWyklad6/src/pw/java/wyk6/animacje/obrazki/obrazek0.jpg">
-<persistable path="/JavaWyklad6/src/pw/java/wyk6/animacje/obrazki/obrazek0.jpg"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="POJAVA/src/lab8/MainClass.java">
+<persistable path="/POJAVA/src/lab8/MainClass.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Prostokat.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java">
-<persistable path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainFrame.java" tooltip="Lab10/src/NaLabach/MainFrame.java">
+<persistable path="/Lab10/src/NaLabach/MainFrame.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ExampleAudioPlayer.java" tooltip="JavaFXmultimedia/src/javapw/sound/zad1/ExampleAudioPlayer.java">
+<persistable path="/JavaFXmultimedia/src/javapw/sound/zad1/ExampleAudioPlayer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SwingUIToPDFDemo.java" tooltip="Lab9_OrsonPDF/src/com/orsonpdf/demo/SwingUIToPDFDemo.java">
+<persistable path="/Lab9_OrsonPDF/src/com/orsonpdf/demo/SwingUIToPDFDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProstokatyDoPlikuPDF.java" tooltip="Lab9_OrsonPDF/src/przyklad1/ProstokatyDoPlikuPDF.java">
+<persistable path="/Lab9_OrsonPDF/src/przyklad1/ProstokatyDoPlikuPDF.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Prostokat.java" tooltip="Lab9_OrsonPDF/src/przyklad1/Prostokat.java">
+<persistable path="/Lab9_OrsonPDF/src/przyklad1/Prostokat.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Frame.java" tooltip="lab9/src/Frame.java">
+<persistable path="/lab9/src/Frame.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MenuPanel.java" tooltip="lab9/src/MenuPanel.java">
+<persistable path="/lab9/src/MenuPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Plot.java" tooltip="lab9/src/Plot.java">
+<persistable path="/lab9/src/Plot.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MultiListenerFrame.java" tooltip="DŻAFAR/lab3/MultiListenerFrame.java">
+<persistable path="/DŻAFAR/lab3/MultiListenerFrame.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PanelRysowania.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java">
 <persistable path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/PanelRysowania.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java">
-<persistable path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/MainClass.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Prostokat.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java">
+<persistable path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Prostokat.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Close.java" tooltip="POJAVA/src/lab7/Close.java">
-<persistable path="/POJAVA/src/lab7/Close.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AnimatedButton.java" tooltip="POJAVA/src/lab7/AnimatedButton.java">
-<persistable path="/POJAVA/src/lab7/AnimatedButton.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColorPanel.java" tooltip="POJAVA/src/lab7/ColorPanel.java">
-<persistable path="/POJAVA/src/lab7/ColorPanel.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="POJAVA/src/lab7/MainClass.java">
-<persistable path="/POJAVA/src/lab7/MainClass.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JButtonScheduled.java" tooltip="DŻAFAR/pl/edu/pw/fizyka/java/lab7/przyklady/JButtonScheduled.java">
-<persistable path="/DŻAFAR/pl/edu/pw/fizyka/java/lab7/przyklady/JButtonScheduled.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="JButtonRunnable.java" tooltip="DŻAFAR/pl/edu/pw/fizyka/java/lab7/przyklady/JButtonRunnable.java">
-<persistable path="/DŻAFAR/pl/edu/pw/fizyka/java/lab7/przyklady/JButtonRunnable.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ColorfulPanel.java" tooltip="DŻAFAR/lab7/ColorfulPanel.java">
-<persistable path="/DŻAFAR/lab7/ColorfulPanel.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainClass.java" tooltip="DŻAFAR/lab7/MainClass.java">
-<persistable path="/DŻAFAR/lab7/MainClass.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Gif.java" tooltip="Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Gif.java">
+<persistable path="/Lab7Watki/src/pl/edu/pw/fizyka/java/lab7/zadanie2/Gif.java"/>
 </file>
 </mruList>
 </workbench>

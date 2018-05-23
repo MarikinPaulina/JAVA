@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=DŻAFAR/&lt;lab6{Figure.java[Figure" modifiers="1025" timestamp="1522229921000"/>
+<typeInfo handle="=DŻAFAR/&lt;lab6{Figure.java[Figure" modifiers="1025" timestamp="1523302772000"/>
 <typeInfo handle="=DŻAFAR/\/opt\/java\/jdk1.8.0_162\/jre\/lib\/rt.jar&lt;java.awt.event(MouseAdapter.class[MouseAdapter" modifiers="1057" timestamp="1513747461000"/>
 <typeInfo handle="=DŻAFAR/\/opt\/java\/jdk1.8.0_162\/jre\/lib\/rt.jar&lt;javax.swing(JFrame.class[JFrame" modifiers="33" timestamp="1513747461000"/>
 <typeInfo handle="=DŻAFAR/\/opt\/java\/jdk1.8.0_162\/jre\/lib\/rt.jar&lt;javax.swing(JPanel.class[JPanel" modifiers="33" timestamp="1513747461000"/>
+<typeInfo handle="=POJAVA/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1524850021000"/>
 <typeInfo handle="=DŻAFAR/\/opt\/java\/jdk1.8.0_162\/jre\/lib\/rt.jar&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1513747461000"/>
-<typeInfo handle="=POJAVA/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;javax.swing(JFrame.class[JFrame" modifiers="33" timestamp="1509141854000"/>
-<typeInfo handle="=POJAVA/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;javax.swing(JPanel.class[JPanel" modifiers="33" timestamp="1509141854000"/>
-<typeInfo handle="=POJAVA/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;javax.swing(JButton.class[JButton" modifiers="33" timestamp="1509141854000"/>
-<typeInfo handle="=POJAVA/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(Runnable.class[Runnable" modifiers="1537" timestamp="1509141854000"/>
+<typeInfo handle="=POJAVA/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;javax.swing(JButton.class[JButton" modifiers="1" timestamp="1524850021000"/>
+<typeInfo handle="=POJAVA/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;javax.swing(JFrame.class[JFrame" modifiers="1" timestamp="1524850021000"/>
+<typeInfo handle="=POJAVA/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;javax.swing(JPanel.class[JPanel" modifiers="1" timestamp="1524850021000"/>
+<typeInfo handle="=POJAVA/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;javax.swing(JColorChooser.class[JColorChooser" modifiers="1" timestamp="1524850021000"/>
+<typeInfo handle="=POJAVA/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;javax.swing(JComboBox.class[JComboBox" modifiers="1" timestamp="1524850021000"/>
 </typeInfoHistroy>
